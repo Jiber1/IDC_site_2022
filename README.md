@@ -1,3 +1,8 @@
+# Work Notes
+
+Material UI went through a major overall, which I was planning to use. I'm spending some time learning the new changes, and learning nextui as well. Expect the landing page and nav bar system to be done thursday
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
