@@ -21,17 +21,23 @@
 
 .Navbar-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 100px;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 50px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 65vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1.75rem;
 }
 
 .Navbar-links {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.Navbar-links:hover {
+    background-color:rgb(168, 173, 116);
+    border-radius: 4px;
+    transition: all 0.25s ease-out;
 }

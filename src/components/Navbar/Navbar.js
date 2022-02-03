@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Options } from "./Options";
 import './Navbar.css'
+import { Button } from "../Registerbutton/Button"
 
 class Navbar extends Component {
   state = { onClick: false } // On click boolean for animations/icon transitions, and mobile navbar
@@ -26,6 +27,7 @@ class Navbar extends Component {
                       )
                     })}
                   </ul>  
+                  <Button>Register</Button>
           </nav>
 
     ) 
