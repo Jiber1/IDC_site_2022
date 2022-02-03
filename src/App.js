@@ -9,6 +9,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' />
+        <Route path='/home' />
+        <Route path='/companies' />
+        <Route path='/faq' />
+        <Route path='/events' />
+        <Route path='/mentors' />
       </Routes>
     </Router>
   );

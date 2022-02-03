@@ -1,22 +1,27 @@
 export const Options = [
     {
         title: 'Home',
-        url: '#', //placeholder
+        url: '/home', //placeholder
         cName: 'Navbar-links'
     },
     {
-        title: 'About us',
-        url: '#', //placeholder
+        title: 'Companies',
+        url: '/companies', //placeholder
         cName: 'Navbar-links'
     },
     {
         title: 'FAQ',
-        url: '#', //placeholder
+        url: '/faq', //placeholder
         cName: 'Navbar-links'
     },
     {
         title: 'Events',
-        url: '#', //placeholder
+        url: '/events', //placeholder
+        cName: 'Navbar-links'
+    },
+    {
+        title: 'Mentors',
+        url: '/mentors', //placeholder
         cName: 'Navbar-links'
     },
     //{
