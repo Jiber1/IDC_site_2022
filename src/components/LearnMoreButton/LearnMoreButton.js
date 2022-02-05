@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './LearnMoreButton.css';
 
 const STYLES = [
     'btn--primary',
@@ -7,11 +7,10 @@ const STYLES = [
 ]
 
 const SIZES = [
-    'btn--medium',
-    'btn--large'
+    'btn--landing',
 ]
 
-export const Button = ({
+export const LearnMoreButton = ({
     children,
     type,
     onClick,

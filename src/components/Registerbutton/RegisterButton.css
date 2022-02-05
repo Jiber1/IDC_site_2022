@@ -44,3 +44,10 @@
     font-size: 20px;
     color:#fff;
 }
+
+.btn--mobile {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+    color:#fff;
+}

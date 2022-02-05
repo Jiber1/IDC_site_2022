@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Options } from "./Options";
-import './Navbar.css'
-import { Button } from "../Registerbutton/Button"
+import { RegButton } from "../Registerbutton/RegisterButton"
 import { Link } from "react-router-dom";
+import './Navbar.css'
 
 class Navbar extends Component {
   state = { onClick: false } // On click boolean for animations/icon transitions, and mobile navbar
@@ -10,7 +10,7 @@ class Navbar extends Component {
   handleClick = () => {
     this.setState({ onClick: !this.state.onClick})
   }
-//update ul classname with true false states for mobile navbar
+//update ul classname with true false states for mobile navbar state trigger
 
 
   render() {
@@ -30,7 +30,7 @@ class Navbar extends Component {
               )
             })}
           </ul>  
-        <Button>Register</Button>
+        <RegButton>Register</RegButton>
       </nav>
     ) 
   }
