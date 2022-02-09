@@ -2,8 +2,8 @@ import React from 'react';
 import './LearnMoreButton.css';
 
 const STYLES = [
-    'btn--primary',
-    'btn--outline'
+    'btn--learnprimary',
+    'btn--learnoutline'
 ]
 
 const SIZES = [

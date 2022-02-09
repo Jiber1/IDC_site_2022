@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(255, 255, 255);
+    --primary: rgb(0, 255, 255);
 }
 
 .btn {
@@ -18,11 +18,11 @@
     color: rgb(168, 173, 116);;
 }
 
-.btn--primary {
+.btn--learnprimary {
     background-color: var(--primary);
 }
 
-.btn--outline {
+.btn--learnoutline {
     background-color: transparent;
     color: #fff;
     padding: 8px 20px;

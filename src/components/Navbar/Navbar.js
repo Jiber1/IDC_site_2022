@@ -10,16 +10,17 @@ class Navbar extends Component {
   handleClick = () => {
     this.setState({ onClick: !this.state.onClick})
   }
-//update ul classname with true false states for mobile navbar state trigger
-
-
+  
   render() {
     return (
       <nav className='Navbar'>
         <Link to="/" style={{ textDecoration: 'none' }}>
-          <h1 className='Navbar-logo'>Illinois Design Challenge</h1>
+          <h1 className='Navbar-logo'>IDC</h1>
         </Link>
-          <ul className='Navbar-menu'>
+        <div className="mobile-menu-icon" onClick={this.handleClick}>
+          <i className={this.state.onClick ? 'fas fa-times' : 'fas fa-bars'}></i>
+        </div>
+          <ul className={this.state.onClick ? 'Navbar-menu active' : 'Navbar-menu'}>
             {Options.map((item, index) => {
               return (
                 <li key={index}>

@@ -29,9 +29,9 @@ export const Options = [
         //url: '#', //placeholder
         //cName: 'Navbar-links'
     //},
-    //{ //Mobile placeholder
-        //title: 'Register',
-        //url: '#', //placeholder
-       // cName: 'Navbar-links-mobile'
-    //},
+    { //Mobile placeholder
+        title: 'Register',
+        url: '/', //placeholder
+        cName: 'Navbar-links-mobile'
+    },
 ]
