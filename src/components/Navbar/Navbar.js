@@ -30,7 +30,7 @@ class Navbar extends Component {
                 </li>
               )
             })}
-          </ul>  
+          </ul>
         <RegButton>Register</RegButton>
       </nav>
     ) 

@@ -1,0 +1,31 @@
+body { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.backdrop { 
+    background:rgb(172, 225, 174) no-repeat 
+    center center fixed; 
+}
+
+.Landingpage {
+    height:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.Landingpage-logo {
+    color: #fff;
+}
+
+.Learnmore {
+    
+}
+
+.Register {
+
+}
