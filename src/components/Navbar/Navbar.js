@@ -31,11 +31,13 @@ class Navbar extends Component {
               )
             })}
           </ul>
-        <Button>Register</Button>
+          <Link to="/home" style={{ textDecoration: 'none' }}>
+            <Button>Register</Button>
+          </Link>
       </nav>
     ) 
   }
 }
-  
+
 
 export default Navbar;

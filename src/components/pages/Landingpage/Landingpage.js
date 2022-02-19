@@ -11,16 +11,16 @@ class Landingpage extends Component {
                     <h1 className='Landingpage-logo'>IDC</h1>
                     <div className='regcontainer'>
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <Button buttonSize='btn--landing'>
+                        <div className='btn_register'>
                             Register
-                        </Button>
+                        </div>
                     </Link>
                     </div>
                     <div className='learncontainer'>
                         <Link to="/home" style={{ textDecoration: 'none' }}>
-                            <Button buttonSize='btn--learn'>
+                            <div className='btn_learn'>
                                 Learn More
-                            </Button>
+                            </div>
                         </Link>
                     </div>
                 </div>

@@ -38,8 +38,32 @@
     grid-row: 15;
 }
 
-@media screen and (max-width: 1080px) {
-    Button {
-        display: flex;
-    }
+.btn_learn {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn_learn:hover {
+    background-color:rgb(120, 159, 121);
+    border-radius: 4px;
+    transition: all 0.25s ease-out;
+}
+
+.btn_register {
+    background-color: rgb(197, 114, 239);
+    color: #fff;
+    margin: auto 25px;
+    float: left;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.btn_register:hover {
+    padding: 8px 20px;
+    transition: all 0.25s ease-out;
+    background: #fff;
+    color: rgb(150, 87, 182);
 }
