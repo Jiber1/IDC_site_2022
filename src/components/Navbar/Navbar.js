@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Options } from "./Options";
-import { RegButton } from "../Registerbutton/RegisterButton"
+import { Button } from "../Registerbutton/RegisterButton"
 import { Link } from "react-router-dom";
 import './Navbar.css'
 
@@ -31,7 +31,7 @@ class Navbar extends Component {
               )
             })}
           </ul>
-        <RegButton>Register</RegButton>
+        <Button>Register</Button>
       </nav>
     ) 
   }

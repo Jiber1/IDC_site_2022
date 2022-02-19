@@ -34,4 +34,9 @@ export const Options = [
         url: '/', //placeholder
         cName: 'Navbar-links-mobile'
     },
+    //{ //Submission timegate
+        //title: 'Submissions',
+       // url: '/submissions',
+        //cName: 'Navbar-links'
+    //}
 ]

@@ -9,10 +9,10 @@ const STYLES = [
 const SIZES = [
     'btn--medium',
     'btn--landing',
-    'btn--mobile'
+    'btn--learn'
 ]
 
-export const RegButton = ({
+export const Button = ({
     children,
     type,
     onClick,
