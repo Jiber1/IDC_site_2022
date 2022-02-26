@@ -24,7 +24,9 @@ class Landingpage extends Component {
                         </Link>
                     </div>
                     <div className='down_arrow'>
+                    <Link to="/home" style={{ textDecoration: 'none' }}>
                         <i class="fa-solid fa-angle-down"></i>
+                    </Link>
                     </div>
                 </div>
             </div>
