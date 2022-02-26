@@ -23,6 +23,9 @@ class Landingpage extends Component {
                             </div>
                         </Link>
                     </div>
+                    <div className='down_arrow'>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
                 </div>
             </div>
         )
