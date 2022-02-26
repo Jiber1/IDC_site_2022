@@ -1,5 +1,6 @@
 {
   "name": "idc_site_2022",
+  "homepage": "http://designchallenge.web.illinois.edu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
