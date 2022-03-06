@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Button } from '../../Registerbutton/RegisterButton';
+import { ReactComponent as FrontLogo } from './LandingLogo.svg';
+import { ReactComponent as FrontArrow } from './LandingArrow.svg';
+import { ReactComponent as FrontGraphic } from './LandingGraphic.svg';
+import { ReactComponent as FrontGears } from './LandingGears.svg';
+import { ReactComponent as FrontTriangles } from './LandingTriangles.svg';
 import "./Landingpage.css";
 
 class Landingpage extends Component {
@@ -8,24 +12,23 @@ class Landingpage extends Component {
         return (
             <div className='Landingpage'>
                 <div className='overallcontainer'>
-                    <h1 className='Landingpage-logo'>IDC</h1>
+                    <div className='Frontlogo'>
+                        <FrontLogo />
+                    </div>
+                    <div className='FrontTriangles'>
+                        <FrontTriangles />
+                    </div>
+                    <div className='FrontGraphic'>
+                        <FrontGraphic />
+                    </div>
+                    <div className='FrontGears'>
+                        <FrontGears />
+                    </div>
                     <div className='regcontainer'>
                     <Link to="/" style={{ textDecoration: 'none' }}>
                         <div className='btn_register'>
                             Register
                         </div>
-                    </Link>
-                    </div>
-                    <div className='learncontainer'>
-                        <Link to="/home" style={{ textDecoration: 'none' }}>
-                            <div className='btn_learn'>
-                                Learn More
-                            </div>
-                        </Link>
-                    </div>
-                    <div className='down_arrow'>
-                    <Link to="/home" style={{ textDecoration: 'none' }}>
-                        <i class="fa-solid fa-angle-down"></i>
                     </Link>
                     </div>
                 </div>
@@ -42,5 +45,17 @@ const Landing = () => {
         </>
     );
 }; */
+//                     <body className='Landingpage-abouttext'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</body>
+//                     <h1 className='Landingpage-aboutus'>About Us</h1>
+/*
+div className='emailcontainer'>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
+                            <div className='btn_email'>
+                                Email us!
+                            </div>
+                        </Link>
+                    </div>
+
+*/
 
 export default Landingpage;

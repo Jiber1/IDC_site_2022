@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Options } from "./Options";
 import { Button } from "../Registerbutton/RegisterButton"
 import { Link } from "react-router-dom";
+import { ReactComponent as Logo } from './IDCIcon.svg';
 import './Navbar.css'
 
 class Navbar extends Component {
@@ -15,7 +16,9 @@ class Navbar extends Component {
     return (
       <nav className='Navbar'>
         <Link to="/" style={{ textDecoration: 'none' }}>
-          <h1 className='Navbar-logo'>IDC</h1>
+          <h1 className='Navbar-logo'>
+            <Logo />
+          </h1>
         </Link>
         <div className="mobile-menu-icon" onClick={this.handleClick}>
           <i className={this.state.onClick ? 'fas fa-times' : 'fas fa-bars'}></i>

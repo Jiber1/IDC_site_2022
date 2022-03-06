@@ -1,5 +1,5 @@
 import './App.css';
-import Landing from './components/pages/Landingpage/Landingpage';
+import Landingpage from './components/pages/Landingpage/Landingpage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WithNavbar from './components/Navbar/NavbarEnablers/WithNavbar';
 import WithoutNavbar from './components/Navbar/NavbarEnablers/WithoutNavbar';
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route element={<WithoutNavbar />}>
-          <Route path='/' element={<Landing />}/>
+          <Route path='/' element={<Landingpage/>}/>
         </Route>
         <Route element={<WithNavbar />}>
           <Route path='/home'/>
