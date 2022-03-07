@@ -12,7 +12,7 @@ import { Slider } from 'react-typeform-embed';
 class Landingpage extends Component {
     render() {
         return (
-            <div className='Landingpage'>
+            <div className='Landingpage' content="width=device-width, initial-scale=1">
                 <div className='overallcontainer'>
                     <div className='Frontlogo' >
                         <FrontLogo />
