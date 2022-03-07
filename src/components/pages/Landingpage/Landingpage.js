@@ -28,14 +28,14 @@ class Landingpage extends Component {
                         <FrontGears />
                     </div>
                     <div className='regcontainer'>
-                    <Slider id="IiUEV5kd" >
+                    <Slider id="IiUEV5kd" data-tf-inline-on-mobile>
                     <Link to="/" style={{ textDecoration: 'none' }}>
                         <div className='btn_register'>
                             Register
                         </div>
                     </Link>
                     </Slider>
-                    <Popup id="IiUEV5kd" >
+                    <Popup id="IiUEV5kd" data-tf-inline-on-mobile>
                     <Link to="/" style={{ textDecoration: 'none' }}>
                         <div className='btn_register_pop_up'>
                             Register
