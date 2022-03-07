@@ -54,9 +54,11 @@
     display: flex;
     justify-self: left;
     align-self: left;
-    grid-row: 13;
-    font-size: 3rem;
-    margin-left: 6rem;
+    text-align: center;
+    grid-row: 23;
+    font-size: 1rem;
+    margin-left: 18rem;
+    width: 500px
 }
 
 .regcontainer {
@@ -197,6 +199,18 @@
         color: #fff;
     }
 
+    .Landingpage-subcap {
+        color: #fff;
+        display: flex;
+        justify-self: left;
+        align-self: left;
+        text-align: center;
+        grid-row: 19;
+        font-size: 1rem;
+        margin-left: 11rem;
+        width: 500px
+    }
+
     @media screen and (max-width: 767px) {
         .Landingpage {
             top: 50%;
@@ -267,6 +281,17 @@
             transition: all 0.25s ease-out;
             background: #394f57;
             color: #fff;
+        }
+        .Landingpage-subcap {
+            color: #fff;
+            display: flex;
+            justify-self: left;
+            align-self: left;
+            text-align: center;
+            grid-row: 17;
+            font-size: 1rem;
+            margin-left: 1.75rem;
+            width: 400px
         }
     }
 }
