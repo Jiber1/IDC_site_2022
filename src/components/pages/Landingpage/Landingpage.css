@@ -10,6 +10,11 @@
     z-index: 1;
 }
 
+.btn_register_pop_up {
+    display: none;
+}
+
+
 .Frontlogo {
     display: flex;
     justify-self: left;
@@ -91,6 +96,7 @@
 }
 
 .btn_register {
+    display: flex;
     background-color: #fff;
     color: #4c7685;
     margin: 25px 360px;
@@ -136,7 +142,7 @@
     grid-row: 19;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1600px) {
     .Landingpage {
         top: 50%;
         left: 50%;
@@ -167,6 +173,10 @@
     .FrontGears {
         display: none
     }
+
+    .btn_register_pop_up {
+        display: none;
+    }
     
     .overallcontainer {
         display: grid;
@@ -185,6 +195,7 @@
     }
     
     .btn_register {
+        display: flex;
         background-color: #fff;
         color: #4c7685;
         margin: 25px 360px;
@@ -215,88 +226,11 @@
         width: 500px
     }
 
-    @media screen and (max-width: 960px) {
-        .Landingpage {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background:#202020;
-            height:100%;
-            position: absolute;
-            z-index: 1;
-            
-        }
-        
-        .Frontlogo {
-            display: flex;
-            justify-self: left;
-            align-self: center;
-            grid-row: 5;
-            margin-top: 30px;
-            margin-left: 0.5rem;
-            width: 60%;
-            height: 60%;
-        }
-        
-        .FrontTriangles {
-            display: none
-        }
-        
-        .FrontGraphic {
-            display: none
-        }
-        .FrontGears {
-            display: none
-        }
-        
-        .overallcontainer {
-            display: grid;
-            grid-template: repeat(1, 1fr) / repeat(1, 1fr);
-            grid-gap: auto;
-            grid-auto-rows: 40px;
-            font-size: 1.2rem;
-            
-        }
-        
-        .regcontainer {
-            display: flex;
-            align-self: center;
-            justify-self: center;
-            grid-row: 15;
-            margin-left: -20rem;
-        }
-        
-        .btn_register {
-            background-color: #fff;
-            color: #4c7685;
-            margin: 25px 360px;
-            float: left;
-            padding: 20px 150px;
-            border-radius: 4px;
-            outline: #fff;
-            outline-width: 6px;
-            border: #fff;
-           
-        }
-        
-        .btn_register:hover {
-            padding: 20px 150px;
-            transition: all 0.25s ease-out;
-            background: #394f57;
-            color: #fff;
-        }
-        .Landingpage-subcap {
-            color: #fff;
-            display: flex;
-            justify-self: center;
-            align-self: center;
-            text-align: center;
-            grid-row: 19;
-            font-size: auto;
-            width: 300px;
-            margin-left: -20rem;
-            
-        }
+    .btn_register_pop_up {
+        display: none;
+    }
+
+    
         @media screen and (max-width: 960px) {
         .Landingpage {
             top: 50%;
@@ -349,24 +283,10 @@
         }
         
         .btn_register {
-            background-color: #fff;
-            color: #4c7685;
-            margin: 25px 360px;
-            float: left;
-            padding: 20px 150px;
-            border-radius: 4px;
-            outline: #fff;
-            outline-width: 6px;
-            border: #fff;
+            display: none;
            
         }
-        
-        .btn_register:hover {
-            padding: 20px 150px;
-            transition: all 0.25s ease-out;
-            background: #394f57;
-            color: #fff;
-        }
+    
         .Landingpage-subcap {
             color: #fff;
             display: flex;
@@ -378,6 +298,27 @@
             width: 300px;
             margin-left: -20rem;
         }
+
+        .btn_register_pop_up {
+            display: flex;
+            background-color: #fff;
+            color: #4c7685;
+            margin: 25px 360px;
+            float: left;
+            padding: 20px 150px;
+            border-radius: 4px;
+            outline: #fff;
+            outline-width: 6px;
+            border: #fff;
+           
+        }
+
+        .btn_register_pop_up:hover {
+            padding: 20px 150px;
+            transition: all 0.25s ease-out;
+            background: #394f57;
+            color: #fff;
+        }
             @media screen and (max-width: 500px) {
                 .Landingpage {
                     top: 50%;
@@ -387,6 +328,7 @@
                     height:100%;
                     position: absolute;
                     z-index: 1;
+
                     
                 }
                 
@@ -429,23 +371,12 @@
                 }
                 
                 .btn_register {
-                    background-color: #fff;
-                    color: #4c7685;
-                    margin: 25px 200px;
-                    float: left;
-                    padding: 20px 80px;
-                    border-radius: 4px;
-                    outline: #fff;
-                    outline-width: 6px;
-                    border: #fff;
+                    display: none;
                    
                 }
                 
                 .btn_register:hover {
-                    padding: 20px 80px;
-                    transition: all 0.25s ease-out;
-                    background: #394f57;
-                    color: #fff;
+                    display: none;
                 }
                 .Landingpage-subcap {
                     color: #fff;
@@ -458,7 +389,27 @@
                     width: 200px;
                     
                 }
+
+                .btn_register_pop_up {
+                    display: flex;
+                    background-color: #fff;
+                    color: #4c7685;
+                    margin: 25px 200px;
+                    float: left;
+                    padding: 20px 80px;
+                    border-radius: 4px;
+                    outline: #fff;
+                    outline-width: 6px;
+                    border: #fff;
+                }
+
+                .btn_register_pop_up:hover {
+                    padding: 20px 80px;
+                    transition: all 0.25s ease-out;
+                    background: #394f57;
+                    color: #fff;
+                }
+
             }
         }
     }
-}

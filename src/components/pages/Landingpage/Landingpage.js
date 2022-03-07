@@ -7,6 +7,7 @@ import { ReactComponent as FrontGears } from './LandingGears.svg';
 import { ReactComponent as FrontTriangles } from './LandingTriangles.svg';
 import "./Landingpage.css";
 import { Slider } from 'react-typeform-embed';
+import { Popup } from 'react-typeform-embed';
 
 
 class Landingpage extends Component {
@@ -34,6 +35,13 @@ class Landingpage extends Component {
                         </div>
                     </Link>
                     </Slider>
+                    <Popup id="IiUEV5kd" >
+                    <Link to="/" style={{ textDecoration: 'none' }}>
+                        <div className='btn_register_pop_up'>
+                            Register
+                        </div>
+                    </Link>
+                    </Popup>
                     </div>
                     <div className='Landingpage-subcap'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</div>
                 </div>
