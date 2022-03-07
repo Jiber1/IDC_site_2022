@@ -130,3 +130,143 @@
     grid-row: 19;
 }
 
+@media screen and (max-width: 1080px) {
+    .Landingpage {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background:#202020;
+        width:100%;
+        height:100%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .Frontlogo {
+        display: flex;
+        justify-self: left;
+        align-self: left;
+        grid-row: 6;
+        margin-top: 30px;
+        margin-left: 4.0rem;
+    }
+    
+    .FrontTriangles {
+        display: none
+    }
+    
+    .FrontGraphic {
+        display: none
+    }
+    .FrontGears {
+        display: none
+    }
+    
+    .overallcontainer {
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        grid-gap: auto;
+        grid-auto-rows: 40px;
+        font-size: 1.2rem;
+    }
+    
+    .regcontainer {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        grid-row: 16;
+        margin-left: -7rem;
+    }
+    
+    .btn_register {
+        background-color: #fff;
+        color: #4c7685;
+        margin: 25px 360px;
+        float: left;
+        padding: 20px 150px;
+        border-radius: 4px;
+        outline: #fff;
+        outline-width: 6px;
+        border: #fff;
+    }
+    
+    .btn_register:hover {
+        padding: 20px 150px;
+        transition: all 0.25s ease-out;
+        background: #394f57;
+        color: #fff;
+    }
+
+    @media screen and (max-width: 767px) {
+        .Landingpage {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background:#202020;
+            width:100%;
+            height:100%;
+            position: absolute;
+            z-index: 1;
+            
+        }
+        
+        .Frontlogo {
+            display: flex;
+            justify-self: left;
+            align-self: left;
+            grid-row: 5;
+            margin-top: 30px;
+            margin-left: 0.5rem;
+            width: 60%;
+            height: 60%;
+        }
+        
+        .FrontTriangles {
+            display: none
+        }
+        
+        .FrontGraphic {
+            display: none
+        }
+        .FrontGears {
+            display: none
+        }
+        
+        .overallcontainer {
+            display: grid;
+            grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+            grid-gap: auto;
+            grid-auto-rows: 40px;
+            font-size: 1.2rem;
+            
+        }
+        
+        .regcontainer {
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            grid-row: 14;
+            margin-left: -20rem;
+            
+        }
+        
+        .btn_register {
+            background-color: #fff;
+            color: #4c7685;
+            margin: 25px 360px;
+            float: left;
+            padding: 20px 150px;
+            border-radius: 4px;
+            outline: #fff;
+            outline-width: 6px;
+            border: #fff;
+        }
+        
+        .btn_register:hover {
+            padding: 20px 150px;
+            transition: all 0.25s ease-out;
+            background: #394f57;
+            color: #fff;
+        }
+    }
+}

@@ -6,30 +6,34 @@ import { ReactComponent as FrontGraphic } from './LandingGraphic.svg';
 import { ReactComponent as FrontGears } from './LandingGears.svg';
 import { ReactComponent as FrontTriangles } from './LandingTriangles.svg';
 import "./Landingpage.css";
+import { Slider } from 'react-typeform-embed';
+
 
 class Landingpage extends Component {
     render() {
         return (
             <div className='Landingpage'>
                 <div className='overallcontainer'>
-                    <div className='Frontlogo'>
+                    <div className='Frontlogo' >
                         <FrontLogo />
                     </div>
-                    <div className='FrontTriangles'>
+                    <div className='FrontTriangles' >
                         <FrontTriangles />
                     </div>
-                    <div className='FrontGraphic'>
+                    <div className='FrontGraphic' >
                         <FrontGraphic />
                     </div>
-                    <div className='FrontGears'>
+                    <div className='FrontGears' >
                         <FrontGears />
                     </div>
                     <div className='regcontainer'>
+                    <Slider id="IiUEV5kd" >
                     <Link to="/" style={{ textDecoration: 'none' }}>
                         <div className='btn_register'>
                             Register
                         </div>
                     </Link>
+                    </Slider>
                     </div>
                 </div>
             </div>
@@ -39,7 +43,7 @@ class Landingpage extends Component {
 /*
 const Landing = () => {
     return (
-        <>
+        <>                     <button data-tf-slider="IiUEV5kd" data-tf-width="550" data-tf-iframe-props="title=Illinois Design Challenge Participant Registration" data-tf-medium="snippet" style={{all:'unset'}}>Register</button><script src="//embed.typeform.com/next/embed.js"></script>
             <Landingpage />
             <Outlet />
         </>
@@ -55,6 +59,12 @@ div className='emailcontainer'>
                             </div>
                         </Link>
                     </div>
+
+                    <Link to="//embed.typeform.com/next/embed.js" style={{ textDecoration: 'none' }}>
+                        <div className='btn_register'>
+                            Register
+                        </div>
+                    </Link>
 
 */
 
