@@ -4,7 +4,8 @@
     transform: translate(-50%, -50%);
     background:#202020;
     width: auto;
-    height:100vh;
+    height: 100%;
+    width: 100%;
     position: absolute;
     z-index: 1;
 }
@@ -135,13 +136,14 @@
     grid-row: 19;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1680px) {
     .Landingpage {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background:#202020;
         height:100%;
+        width: 100vw;
         position: absolute;
         z-index: 1;
     }
@@ -177,7 +179,7 @@
     .regcontainer {
         display: flex;
         align-items: left;
-        justify-content: left;
+        justify-content: center;
         grid-row: 16;
        
     }
@@ -204,16 +206,16 @@
     .Landingpage-subcap {
         color: #fff;
         display: flex;
-        justify-self: left;
+        justify-self: center;
         align-self: left;
         text-align: center;
         grid-row: 19;
         font-size: 1rem;
-        
+        margin-left: 0rem;
         width: 500px
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 960px) {
         .Landingpage {
             top: 50%;
             left: 50%;
@@ -227,13 +229,13 @@
         
         .Frontlogo {
             display: flex;
-            justify-self: center;
+            justify-self: left;
             align-self: center;
             grid-row: 5;
             margin-top: 30px;
             margin-left: 0.5rem;
-            width: 40%;
-            height: 40%;
+            width: 60%;
+            height: 60%;
         }
         
         .FrontTriangles {
@@ -258,10 +260,10 @@
         
         .regcontainer {
             display: flex;
-            align-items: left;
-            justify-content: left;
+            align-self: center;
+            justify-self: center;
             grid-row: 15;
-            
+            margin-left: -20rem;
         }
         
         .btn_register {
@@ -274,6 +276,7 @@
             outline: #fff;
             outline-width: 6px;
             border: #fff;
+           
         }
         
         .btn_register:hover {
@@ -286,12 +289,176 @@
             color: #fff;
             display: flex;
             justify-self: center;
-            align-self: left;
+            align-self: center;
             text-align: center;
-            grid-row: 18;
-            font-size: 1rem;
-            width: 400px;
-            margin-left: 0rem;
+            grid-row: 19;
+            font-size: auto;
+            width: 300px;
+            margin-left: -20rem;
+            
+        }
+        @media screen and (max-width: 960px) {
+        .Landingpage {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background:#202020;
+            height:100%;
+            position: absolute;
+            z-index: 1;
+            
+        }
+        
+        .Frontlogo {
+            display: flex;
+            justify-self: left;
+            align-self: center;
+            grid-row: 5;
+            margin-top: 30px;
+            margin-left: 0.5rem;
+            width: 60%;
+            height: 60%;
+        }
+        
+        .FrontTriangles {
+            display: none
+        }
+        
+        .FrontGraphic {
+            display: none
+        }
+        .FrontGears {
+            display: none
+        }
+        
+        .overallcontainer {
+            display: grid;
+            grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+            grid-gap: auto;
+            grid-auto-rows: 40px;
+            font-size: 1.2rem;
+            
+        }
+        
+        .regcontainer {
+            display: flex;
+            align-self: center;
+            justify-self: center;
+            grid-row: 15;
+            margin-left: -20rem;
+        }
+        
+        .btn_register {
+            background-color: #fff;
+            color: #4c7685;
+            margin: 25px 360px;
+            float: left;
+            padding: 20px 150px;
+            border-radius: 4px;
+            outline: #fff;
+            outline-width: 6px;
+            border: #fff;
+           
+        }
+        
+        .btn_register:hover {
+            padding: 20px 150px;
+            transition: all 0.25s ease-out;
+            background: #394f57;
+            color: #fff;
+        }
+        .Landingpage-subcap {
+            color: #fff;
+            display: flex;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+            grid-row: 19;
+            font-size: auto;
+            width: 300px;
+            margin-left: -20rem;
+        }
+            @media screen and (max-width: 500px) {
+                .Landingpage {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background:#202020;
+                    height:100%;
+                    position: absolute;
+                    z-index: 1;
+                    
+                }
+                
+                .Frontlogo {
+                    display: flex;
+                    justify-self: left;
+                    align-self: center;
+                    grid-row: 1;
+                    width: 40%;
+                    height: 75%;
+                    margin: 0 10%;
+                }
+                
+                .FrontTriangles {
+                    display: none
+                }
+                
+                .FrontGraphic {
+                    display: none
+                }
+                .FrontGears {
+                    display: none
+                }
+                
+                .overallcontainer {
+                    display: grid;
+                    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+                    grid-gap: auto;
+                    grid-auto-rows: 40px;
+                    font-size: 1.2rem;
+                    
+                }
+                
+                .regcontainer {
+                    display: flex;
+                    align-self: center;
+                    justify-self: center;
+                    grid-row: 2;
+
+                }
+                
+                .btn_register {
+                    background-color: #fff;
+                    color: #4c7685;
+                    margin: 25px 200px;
+                    float: left;
+                    padding: 20px 80px;
+                    border-radius: 4px;
+                    outline: #fff;
+                    outline-width: 6px;
+                    border: #fff;
+                   
+                }
+                
+                .btn_register:hover {
+                    padding: 20px 80px;
+                    transition: all 0.25s ease-out;
+                    background: #394f57;
+                    color: #fff;
+                }
+                .Landingpage-subcap {
+                    color: #fff;
+                    display: flex;
+                    justify-self: center;
+                    align-self: center;
+                    text-align: center;
+                    grid-row: 5;
+                    font-size: 0.7rem;
+                    width: 200px;
+                    
+                }
+            }
         }
     }
 }
