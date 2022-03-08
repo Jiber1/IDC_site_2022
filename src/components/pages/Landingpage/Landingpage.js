@@ -43,6 +43,9 @@ class Landingpage extends Component {
                     </Link>
                     </Popup>
                     </div>
+                    <div className='not_working_btn' >
+                            <a classname='nwb' href="https://wlsfhzk1cxz.typeform.com/to/IiUEV5kd" style={{ textDecoration: 'none', color: 'white'}} >Not Working? Click Here</a>
+                    </div>
                     <div className='Landingpage-subcap'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</div>
                 </div>
             </div>
