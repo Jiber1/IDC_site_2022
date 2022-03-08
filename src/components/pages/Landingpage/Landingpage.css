@@ -114,7 +114,7 @@
     color: #4c7685;
     margin: 25px 360px;
     float: left;
-    padding: 20px 150px;
+    padding: 35px 150px;
     border-radius: 4px;
     outline: #fff;
     outline-width: 6px;
@@ -122,7 +122,7 @@
 }
 
 .btn_register:hover {
-    padding: 20px 150px;
+    padding: 35px 150px;
     transition: all 0.25s ease-out;
     background: #394f57;
     color: #fff;
@@ -215,7 +215,7 @@
         color: #4c7685;
         margin: 25px 360px;
         float: left;
-        padding: 20px 150px;
+        padding: 35px 150px;
         border-radius: 4px;
         outline: #fff;
         outline-width: 6px;
@@ -223,7 +223,7 @@
     }
     
     .btn_register:hover {
-        padding: 20px 150px;
+        padding: 35px 150px;
         transition: all 0.25s ease-out;
         background: #394f57;
         color: #fff;
@@ -340,7 +340,7 @@
             color: #4c7685;
             margin: 25px 360px;
             float: left;
-            padding: 20px 150px;
+            padding: 30px 150px;
             border-radius: 4px;
             outline: #fff;
             outline-width: 6px;
@@ -349,7 +349,7 @@
         }
 
         .btn_register_pop_up:hover {
-            padding: 20px 150px;
+            padding: 30px 150px;
             transition: all 0.25s ease-out;
             background: #394f57;
             color: #fff;
@@ -442,7 +442,7 @@
                     color: #4c7685;
                     margin: 25px 200px;
                     float: left;
-                    padding: 20px 80px;
+                    padding: 30px 80px;
                     border-radius: 4px;
                     outline: #fff;
                     outline-width: 6px;
@@ -450,7 +450,7 @@
                 }
 
                 .btn_register_pop_up:hover {
-                    padding: 20px 80px;
+                    padding: 30px 80px;
                     transition: all 0.25s ease-out;
                     background: #394f57;
                     color: #fff;

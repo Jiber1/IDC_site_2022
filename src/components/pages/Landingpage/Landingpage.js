@@ -28,23 +28,20 @@ class Landingpage extends Component {
                         <FrontGears />
                     </div>
                     <div className='regcontainer'>
-                    <Slider id="IiUEV5kd" data-tf-inline-on-mobile>
-                    <Link to="/" style={{ textDecoration: 'none' }}>
-                        <div className='btn_register'>
+                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }}>
+                        <div style={{margin: '-10px 0px'}}>
                             Register
                         </div>
-                    </Link>
-                    </Slider>
-                    <Popup id="IiUEV5kd" data-tf-inline-on-mobile>
-                    <Link to="/" style={{ textDecoration: 'none' }}>
-                        <div className='btn_register_pop_up'>
+                    </a>
+
+                    <a className='btn_register_pop_up' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }}>
+                        <div style={{margin: '-10px 0px'}}>
                             Register
                         </div>
-                    </Link>
-                    </Popup>
+                    </a>
                     </div>
                     <div className='not_working_btn' >
-                            <a classname='nwb' href="https://wlsfhzk1cxz.typeform.com/to/IiUEV5kd" style={{ textDecoration: 'none', color: 'white'}} >Not Working? Click Here</a>
+                            <a classname='nwb' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none', color: 'white'}} >Not Working? Click Here</a>
                     </div>
                     <div className='Landingpage-subcap'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</div>
                 </div>
@@ -59,7 +56,7 @@ const Landing = () => {
             <Landingpage />
             <Outlet />
         </>
-    );
+    );<a classname='reg1' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none', color: '#394f57', margin: '-10px 0px'}} >Register</a>
 }; */
 //                     <body className='Landingpage-abouttext'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</body>
 //                     <h1 className='Landingpage-aboutus'>About Us</h1>
