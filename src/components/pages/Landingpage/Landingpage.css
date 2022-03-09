@@ -13,7 +13,7 @@
 }
 
 .not_working_btn {
-    display: flex;
+    display: none;
     color: #fff;
     grid-row: 21;
     border: #fff;
@@ -235,7 +235,7 @@
         justify-self: center;
         align-self: left;
         text-align: center;
-        grid-row: 18;
+        grid-row: 16;
         font-size: 1rem;
         margin-left: 0rem;
         width: 500px
@@ -245,7 +245,7 @@
         display: none;
     }
     .not_working_btn {
-        display: flex;
+        display: none;
         color: #fff;
         grid-row: 16;
         border: #fff;
@@ -308,7 +308,7 @@
         }
 
         .not_working_btn {
-            display: flex;
+            display: none;
             color: #fff;
             grid-row: 16;
             border: #fff;
@@ -328,7 +328,7 @@
             justify-self: center;
             align-self: center;
             text-align: center;
-            grid-row: 19;
+            grid-row: 17;
             font-size: auto;
             width: 440px;
             margin-left: -20rem;
@@ -415,7 +415,7 @@
                 }
 
                 .not_working_btn {
-                    display: flex;
+                    display: none;
                     color: #fff;
                     grid-row: 4;
                     border: #fff;
@@ -430,7 +430,7 @@
                     justify-self: center;
                     align-self: center;
                     text-align: center;
-                    grid-row: 6;
+                    grid-row: 5;
                     font-size: 0.7rem;
                     width: 320px;
                     margin-top: -1.5rem;
