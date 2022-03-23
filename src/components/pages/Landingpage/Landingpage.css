@@ -39,7 +39,7 @@
 }
 
 .FrontTriangles {
-    display: flex;
+    display: none;
     justify-self: left;
     align-self: left;
     grid-row: 5;
@@ -56,7 +56,7 @@
 
 }
 .FrontGears {
-    display: flex;
+    display: none;
     justify-self: left;
     align-self: left;
     grid-row: 14;
