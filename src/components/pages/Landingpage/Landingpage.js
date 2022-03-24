@@ -8,8 +8,7 @@ import { ReactComponent as FrontTriangles } from './LandingTriangles.svg';
 import "./Landingpage.css";
 import { Slider } from 'react-typeform-embed';
 import { Popup } from 'react-typeform-embed';
-
-
+import { Event } from '../../ReactGA/Event';
 class Landingpage extends Component {
     render() {
         return (
@@ -18,30 +17,25 @@ class Landingpage extends Component {
                     <div className='Frontlogo' >
                         <FrontLogo />
                     </div>
-                    <div className='FrontTriangles' >
-                        <FrontTriangles />
-                    </div>
                     <div className='FrontGraphic' >
                         <FrontGraphic />
                     </div>
-                    <div className='FrontGears' >
-                        <FrontGears />
-                    </div>
+                    
                     <div className='regcontainer'>
-                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }}>
+                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER", "Register button clicked", "LANDING_PAGE")}>
                         <div style={{margin: '-10px 0px'}}>
                             Register
                         </div>
                     </a>
 
-                    <a className='btn_register_pop_up' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }}>
+                    <a className='btn_register_pop_up' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER", "Register button clicked", "LANDING_PAGE")}>
                         <div style={{margin: '-10px 0px'}}>
                             Register
                         </div>
                     </a>
                     </div>
                     <div className='not_working_btn' >
-                            <a classname='nwb' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none', color: 'white'}} >Not Working? Click Here</a>
+                            <a className='nwb' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none', color: 'white'}} >Not Working? Click Here</a>
                     </div>
                     <div className='Landingpage-subcap'>The Illinois Design Challenge is an engineering design sprint challenge that brings people of all backgrounds together to push the edge of technology, design, and innovation. We aim to unveil the visionary efforts of the next generation of innovators.</div>
                 </div>
@@ -74,7 +68,12 @@ div className='emailcontainer'>
                             Register
                         </div>
                     </Link>
-
+<div className='FrontGears' >
+                        <FrontGears />
+                    </div>
+                    <div className='FrontTriangles' >
+                        <FrontTriangles />
+                    </div>
 */
 
 export default Landingpage;

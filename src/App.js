@@ -4,8 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WithNavbar from './components/Navbar/NavbarEnablers/WithNavbar';
 import WithoutNavbar from './components/Navbar/NavbarEnablers/WithoutNavbar';
 import Mentorspage from './components/pages/Mentorspage/Mentorspage';
+import ReactGA from 'react-ga';
+
 
 function App() {
+  ReactGA.initialize(306706268)
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <Router>
       <Routes>
