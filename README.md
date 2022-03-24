@@ -1,6 +1,6 @@
 # Work Notes
 
-Material UI went through a major overall, which I was planning to use. I'm spending some time learning the new changes, and learning nextui as well. Expect the landing page and nav bar system to be done thursday
+First Version of website is done, working on second version
 
 
 # Getting Started with Create React App
