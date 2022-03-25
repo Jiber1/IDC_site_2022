@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WithNavbar from './components/Navbar/NavbarEnablers/WithNavbar';
 import WithoutNavbar from './components/Navbar/NavbarEnablers/WithoutNavbar';
 import Mentorspage from './components/pages/Mentorspage/Mentorspage';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 function App() {
-  ReactGA.initialize(306706268)
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.initialize("G-J3JF8PDNTT")
+  ReactGA.send({ hitType: "pageview", page: "/" });
   return (
     <Router>
       <Routes>
