@@ -1,12 +1,17 @@
 export const Options = [
     {
-        title: 'Home',
-        url: '/home', //placeholder
+        title: 'Events',
+        url: '/events', //placeholder
         cName: 'Navbar-links'
     },
     {
-        title: 'Companies',
-        url: '/companies', //placeholder
+        title: 'Schedule',
+        url: '/schedule', //placeholder
+        cName: 'Navbar-links'
+    },
+    {
+        title: 'Sponsors',
+        url: '/sponsors', //placeholder
         cName: 'Navbar-links'
     },
     {
@@ -15,13 +20,8 @@ export const Options = [
         cName: 'Navbar-links'
     },
     {
-        title: 'Events',
-        url: '/events', //placeholder
-        cName: 'Navbar-links'
-    },
-    {
-        title: 'Mentors',
-        url: '/mentors', //placeholder
+        title: 'About',
+        url: '/about', //placeholder
         cName: 'Navbar-links'
     },
     //{

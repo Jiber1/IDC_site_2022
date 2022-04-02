@@ -12,6 +12,8 @@ class Navbar extends Component {
     this.setState({ onClick: !this.state.onClick})
   }
   
+  //set up Link with react scroll to get the proper positions from navbar
+
   render() {
     return (
       <nav className='Navbar'>

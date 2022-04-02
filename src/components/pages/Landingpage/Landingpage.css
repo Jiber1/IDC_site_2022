@@ -10,66 +10,37 @@
     background:#202020;
     width: 100%;
     height: 100%;
-}
-
-.not_working_btn {
-    display: none;
-    color: #fff;
-    grid-row: 21;
-    border: #fff;
-
-    justify-self: center;
-    align-self: center;
-}
-
-
-.btn_register_pop_up {
-    display: none;
+    overflow-x:hidden;
 }
 
 
 .Frontlogo {
     display: flex;
-    justify-self: left;
-    align-self: left;
-    grid-row: 10;
-    margin-top: 30px;
-    margin-left: 13.7rem;
+    align-items: center;
+    justify-content: center;
+    grid-row: 12;
+    transform: translate(-25%, 25%) scale(85%);
 
 }
 
-.FrontTriangles {
-    display: none;
-    justify-self: left;
-    align-self: left;
-    grid-row: 5;
-    margin-left: 3rem;
-
-}
 
 .FrontGraphic {
     display: flex;
-    justify-self: left;
-    align-self: left;
-    grid-row: 3;
-    margin-left: 50rem;
-
-}
-.FrontGears {
-    display: none;
-    justify-self: left;
-    align-self: left;
-    grid-row: 14;
-    margin-left: 76.85rem
+    align-items: center;
+    justify-content: center;
+    grid-row: 10;
+    transform: translate(20%, 10%) scale(80%, 90%);
 }
 
 .overallcontainer {
     display: grid;
-    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+    position: relative;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr); 
     grid-gap: auto;
     grid-auto-rows: 40px;
     font-size: 1.2rem;
 }
+
 
 .Landingpage-subcap {
     color: #fff;
@@ -85,112 +56,149 @@
 
 .regcontainer {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    grid-row: 20;
-}
-.emailcontainer {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    grid-row: 15;
+    align-items: center;
+    justify-content: center;
+    grid-row: 18;
+    transform: translate(-25%);
 }
 
-.btn_email{
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
-.btn_email:hover {
-    background-color:rgb(120, 159, 121);
-    border-radius: 4px;
-    transition: all 0.25s ease-out;
-}
 
 .btn_register {
     display: flex;
-    background-color: #fff;
-    color: #4c7685;
-    margin: 25px 360px;
+    background-color: #317DEE;
+    color: #fff;
     float: left;
-    padding: 35px 150px;
-    border-radius: 4px;
-    outline: #fff;
-    outline-width: 6px;
-    border: #fff;
+    padding: 25px 80px;
+    border-radius: 50px;
 }
 
 .btn_register:hover {
-    padding: 35px 150px;
+    padding: 22px 77px;
+    border:3px solid #317DEE;
     transition: all 0.25s ease-out;
-    background: #394f57;
-    color: #fff;
+    background: #fff;
+    color: #317DEE;
 }
 
-.Landingpage-aboutus {
-    color: #fff;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    grid-row: 18;
-    font-size: 5rem;
-}
-
-.Landingpage-abouttext {
-    color: #fff;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    grid-row: 20;
-    font-size: 2rem;
-}
-
-.down_arrow {
+.arrow_container {
     padding: 8px 20px;
-    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-row: 19;
+    grid-row: 21;
 }
 
-@media screen and (max-width: 1600px) {
-    .Landingpage {
-        position:fixed;
-        padding:0;
-        margin:0;
-        overflow-y: scroll;
-        top:0;
-        left:0;
-        background:#202020;
-        width: 100%;
-        height: 100%;
+.front_arrow {
+    cursor: pointer;
+}
+
+.white_triangle {
+    display: flex;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #fff;
+    border-left: 100vw solid transparent;
+    transform: translate(0%, 11%);
+    grid-row: 22;
+}
+
+.white_container {
+    position:relative;
+    padding:0;
+    margin-top: 126.445px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    top:0;
+    left:0;
+    background:#fff;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: 4fr 1fr; 
+    grid-gap: 5px;
+    grid-auto-rows: 10px;
+    font-size: 1.1rem;
+}
+
+.What_is_idc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52.2609px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202020;
+    grid-row: 7;
+    width: 600px;
+    transform: translateY(175%) translateX(32%);
+    grid-column: 1;
+}
+
+.What_is_idc_section {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.8406px;
+    line-height: 42px;
+    color: #000C1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 8;
+    width: 600px;
+    transform: translateX(32%) translateY(125%);
+}
+
+.idc_pencil {
+    grid-row: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-30%) translateX(-45%);
+    margin-left: 100px;
+    width: 300px;
+}
+
+.icon_collection {
+    grid-row: 12;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateY(-93%) translateX(15%) scale(92%);
+}
+
+
+@media screen and (max-width: 1400px) {
+    .white_triangle {
+        display: flex;
+        width: 0;
+        height: 0;
+        border-bottom: 150px solid #fff;
+        border-left: 100vw solid transparent;
+        transform: translate(0%, 11%);
+        grid-row: 22;
     }
 
-    
+    .icon_collection {
+        display:none;
+    }
+
     .Frontlogo {
         display: flex;
-        justify-self: center;
-        align-self: left;
-        grid-row: 3;
-        margin-top: 30px;
-        margin-left: 4.0rem;
+        align-items: center;
+        justify-content: center;
+        grid-row: 10;
+        transform: translate(0%, 25%) scale(85%);
+        
     }
     
-    .FrontTriangles {
-        display: none
-    }
     
     .FrontGraphic {
         display: none
-    }
-    .FrontGears {
-        display: none
-    }
-
-    .btn_register_pop_up {
-        display: none;
     }
     
     .overallcontainer {
@@ -203,90 +211,173 @@
     
     .regcontainer {
         display: flex;
-        align-items: left;
+        align-items: center;
         justify-content: center;
-        grid-row: 13;
+        grid-row: 16;
+        transform: translate(0%);
        
     }
     
     .btn_register {
         display: flex;
-        background-color: #fff;
-        color: #4c7685;
-        margin: 25px 360px;
+        background-color: #317DEE;
+        color: #fff;
         float: left;
-        padding: 35px 150px;
-        border-radius: 4px;
-        outline: #fff;
-        outline-width: 6px;
-        border: #fff;
+        padding: 25px 80px;
+        border-radius: 50px;
     }
     
     .btn_register:hover {
-        padding: 35px 150px;
+        padding: 22px 77px;
+        border:3px solid #317DEE;
         transition: all 0.25s ease-out;
-        background: #394f57;
-        color: #fff;
+        background: #fff;
+        color: #317DEE;
     }
 
-    .Landingpage-subcap {
-        color: #fff;
+    .white_container {
+        position:relative;
+        padding:0;
+        margin-top: 126.445px;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        top:0;
+        left:0;
+        background:#fff;
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: repeat(25, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: 10px;
+        font-size: 1.1rem;
+    }
+
+    .What_is_idc {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52.2609px;
+        line-height: 63px;
         display: flex;
-        justify-self: center;
-        align-self: left;
-        text-align: center;
-        grid-row: 16;
-        font-size: 1rem;
-        margin-left: 0rem;
-        width: 500px
+        align-items: center;
+        justify-content: center;
+        color: #202020;
+        grid-row: 7;
+        width: 600px;
+        transform: translateY(175%) translateX(32%);
+        grid-column: 1;
     }
-
-    .btn_register_pop_up {
-        display: none;
-    }
-    .not_working_btn {
-        display: none;
-        color: #fff;
-        grid-row: 16;
-        border: #fff;
-        justify-self: center;
-        align-self: center;
-    }
-
     
-        @media screen and (max-width: 960px) {
-        .Landingpage {
-            position:fixed;
-            padding:0;
-            margin:0;
-            overflow-y: scroll;
-            top:0;
-            left:0;
-            background:#202020;
-            width: 100%;
-            height: 100%;
-            
-        }
-        
+    .What_is_idc_section {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34.8406px;
+        line-height: 42px;
+        color: #000C1D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: 8;
+        width: 600px;
+        transform: translateX(32%) translateY(125%);
+    }
+    
+    .idc_pencil {
+        grid-row: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform:translateY(-30%) translateX(-45%);
+        margin-left: 100px;
+        width: 300px;
+    }
+    .arrow_container {
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: 21;
+    }
+    .What_is_idc {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52.2609px;
+        line-height: 63px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #202020;
+        grid-row: 7;
+        width: 600px;
+        transform: translateY(175%) translateX(32%);
+        grid-column: 1;
+    }
+    
+    .What_is_idc_section {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34.8406px;
+        line-height: 42px;
+        color: #000C1D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: 8;
+        width: 600px;
+        transform: translateX(32%) translateY(125%);
+    }
+    
+    .idc_pencil {
+        grid-row: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform:translateY(-30%) translateX(-45%);
+        margin-left: 100px;
+        width: 300px;
+    }
+
+    .white_container {
+        position:relative;
+        padding:0;
+        margin-top: 126.445px;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        top:0;
+        left:0;
+        background:#fff;
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: 4fr 1fr; 
+        grid-gap: 5px;
+        grid-auto-rows: 10px;
+        font-size: 1.1rem;
+    }
+        @media screen and (max-width: 860px) {
+        .white_triangle {
+    display: flex;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #fff;
+    border-left: 100vw solid transparent;
+    transform: translate(0%, 11%);
+    grid-row: 22;
+}
         .Frontlogo {
             display: flex;
-            justify-self: left;
-            align-self: center;
-            grid-row: 4;
-            margin-top: 30px;
-            margin-left: 0.5rem;
-            width: 60%;
-            height: 60%;
-        }
-        
-        .FrontTriangles {
-            display: none
+            align-items: center;
+            justify-content: center;
+            grid-row: 10;
+            transform: translate(-9%, 25%) scale(65%);
         }
         
         .FrontGraphic {
-            display: none
-        }
-        .FrontGears {
             display: none
         }
         
@@ -301,90 +392,106 @@
         
         .regcontainer {
             display: flex;
-            align-self: center;
-            justify-self: center;
-            grid-row: 14;
-            margin-left: -20rem;
-        }
-
-        .not_working_btn {
-            display: none;
-            color: #fff;
-            grid-row: 16;
-            border: #fff;
-            justify-self: center;
-            align-self: center;
-            margin-left: -20rem;
+            align-items: center;
+            justify-content: center;
+            grid-row: 15;
+            transform: translate(-9%);
         }
         
         .btn_register {
             display: flex;
-            background-color: #fff;
-            color: #4c7685;
-            margin: 25px 360px;
+            background-color: #317DEE;
+            color: #fff;
             float: left;
-            padding: 30px 150px;
-            border-radius: 4px;
-            outline: #fff;
-            outline-width: 6px;
-            border: #fff;
-           
+            padding: 25px 80px;
+            border-radius: 50px;
         }
-    
-        .Landingpage-subcap {
-            color: #fff;
-            display: flex;
-            justify-self: center;
-            align-self: center;
-            text-align: center;
-            grid-row: 17;
-            font-size: auto;
-            width: 440px;
-            margin-left: -20rem;
-        }
-
-        .btn_register_pop_up {
-           display: none;
-           
-        }
-
-        .btn_register_pop_up:hover {
-            padding: 30px 150px;
+        
+        .btn_register:hover {
+            padding: 22px 77px;
+            border:3px solid #317DEE;
             transition: all 0.25s ease-out;
-            background: #394f57;
-            color: #fff;
+            background: #fff;
+            color: #317DEE;
+        }
+        .arrow_container {
+            padding: 8px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-row: 21;
+            transform: translate(-9%);
+        }
+        .What_is_idc {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52.2609px;
+            line-height: 63px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #202020;
+            grid-row: 7;
+            width: 600px;
+            transform: translateY(50%) scale(50%);
+            grid-column: 1;
+        }
+        
+        .What_is_idc_section {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34.8406px;
+            line-height: 42px;
+            color: #000C1D;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-row: 8;
+            width: 600px;
+            transform: scale(50%);
+        }
+        
+        .idc_pencil {
+            grid-row: 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform:translateY(-94%) translateX(-45%) scale(50%);
+            margin-left: 100px;
+            width: 300px;
+        }
+
+        .white_container {
+            position:relative;
+            padding:0;
+            margin-top: 126.2445px;
+            overflow-y:hidden;
+            overflow-x:hidden;
+            top:0;
+            left:0;
+            background:#fff;
+            width: 100%;
+            height: 50%;
+            display:grid;
+            grid-template-rows: repeat(12, 1fr);
+            grid-template-columns: 4fr 1fr; 
+            grid-gap: 5px;
+            grid-auto-rows: 10px;
+            font-size: 1.1rem;
         }
             @media screen and (max-width: 500px) {
-                .Landingpage {
-                    position:fixed;
-                    padding:0;
-                    margin:0;
-                    overflow-y: scroll;
-                    top:0;
-                    left:0;
-                    background:#202020;
-                    width: 100%;
-                    height: 100%;                    
-                }
-                
+
                 .Frontlogo {
                     display: flex;
-                    justify-self: left;
-                    align-self: center;
-                    grid-row: 1;
-                    width: 40%;
-                    height: 75%;
-                    margin: 0 8%;
-                }
-                
-                .FrontTriangles {
-                    display: none
+                    align-items: center;
+                    justify-content: center;
+                    grid-row: 7;
+                    transform: translate(-25%, 25%) scale(40%);
                 }
                 
                 .FrontGraphic {
-                    display: none
-                }
-                .FrontGears {
                     display: none
                 }
                 
@@ -399,53 +506,111 @@
                 
                 .regcontainer {
                     display: flex;
-                    align-self: center;
-                    justify-self: center;
-                    grid-row: 2;
-
+                    align-items: center;
+                    justify-content: center;
+                    grid-row: 11;
+                    transform: translateX(-25%) translateY(-25%) scale(65%);
                 }
                 
                 .btn_register {
                     display: flex;
-                    background-color: #fff;
-                    color: #4c7685;
-                    margin: 25px 200px;
+                    background-color: #317DEE;
+                    color: #fff;
                     float: left;
-                    padding: 30px 80px;
-                    border-radius: 4px;
-                    outline: #fff;
-                    outline-width: 6px;
-                    border: #fff;
-                   
+                    padding: 25px 80px;
+                    border-radius: 50px;
                 }
                 
                 .btn_register:hover {
-                    display: none;
+                    padding: 22px 77px;
+                    border:3px solid #317DEE;
+                    transition: all 0.25s ease-out;
+                    background: #fff;
+                    color: #317DEE;
                 }
-
-                .not_working_btn {
-                    display: none;
-                    color: #fff;
-                    grid-row: 4;
-                    border: #fff;
-                    justify-self: center;
-                    align-self: center;
-                    margin-top: -1rem;
-                }
-
-                .Landingpage-subcap {
-                    color: #fff;
+                .arrow_container {
+                    padding: 8px 20px;
                     display: flex;
-                    justify-self: center;
-                    align-self: center;
-                    text-align: center;
-                    grid-row: 5;
-                    font-size: 0.7rem;
-                    width: 320px;
-                    margin-top: -1.5rem;
+                    align-items: center;
+                    justify-content: center;
+                    grid-row: 13;
+                    transform: translate(-25%) scale(75%);
+                }
+                .What_is_idc {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 52.2609px;
+                    line-height: 63px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #202020;
+                    grid-row: 7;
+                    width: 600px;
+                    transform: translateY(50%) translateX(-13%) scale(50%);
+                    grid-column: 1;
+                }
+                
+                .What_is_idc_section {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 34.8406px;
+                    line-height: 42px;
+                    color: #000C1D;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    grid-row: 8;
+                    width: 600px;
+                    transform: scale(42%) translateX(-40%) translateY(-10%);
+                }
+                
+                .idc_pencil {
+                    grid-row: 9;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transform:translateY(-94%) translateX(-70%) scale(50%);
+                    margin-left: 100px;
+                    width: 300px;
+                }
+        
+                .white_container {
+                    position:relative;
+                    padding:0;
+                    margin-top: 126.2445px;
+                    overflow-y:hidden;
+                    overflow-x:hidden;
+                    top:0;
+                    left:0;
+                    background:#fff;
+                    width: 100%;
+                    height: 50%;
+                    display:grid;
+                    grid-template-rows: repeat(12, 1fr);
+                    grid-template-columns: 4fr 1fr; 
+                    grid-gap: 5px;
+                    grid-auto-rows: 10px;
+                    font-size: 1.1rem;
+                }
+                .white_triangle {
+                    display: flex;
+                    width: 0;
+                    height: 0;
+                    border-bottom: 150px solid #fff;
+                    border-left: 100vw solid transparent;
+                    transform: translate(0%, 11%);
+                    grid-row: 14;
                 }
 
-                .btn_register_pop_up {
+            }
+        }
+    }
+
+    /*
+    .btn_register_pop_up {
                     display: none;
                     background-color: #fff;
                     color: #4c7685;
@@ -464,7 +629,4 @@
                     background: #394f57;
                     color: #fff;
                 }
-
-            }
-        }
-    }
+    */

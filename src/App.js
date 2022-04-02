@@ -3,7 +3,6 @@ import Landingpage from './components/pages/Landingpage/Landingpage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WithNavbar from './components/Navbar/NavbarEnablers/WithNavbar';
 import WithoutNavbar from './components/Navbar/NavbarEnablers/WithoutNavbar';
-import Mentorspage from './components/pages/Mentorspage/Mentorspage';
 import ReactGA from 'react-ga4';
 
 
@@ -16,7 +15,16 @@ function App() {
         <Route element={<WithoutNavbar />}>
           <Route path='/' element={<Landingpage/>}/>
         </Route>
-        <Route element={<WithNavbar />}>
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+/*
+
+<Route element={<WithNavbar />}>
           <Route path='/home'/>
         </Route>
         <Route element={<WithNavbar />}>
@@ -31,9 +39,4 @@ function App() {
         <Route element={<WithNavbar />}>
           <Route path='/mentors' element={<Mentorspage />}/>
         </Route>
-      </Routes>
-    </Router>
-  );
-}
-
-export default App;
+*/
