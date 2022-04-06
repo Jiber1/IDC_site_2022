@@ -6,6 +6,13 @@ import { ReactComponent as FrontGraphic } from './LandingGraphic.svg';
 import { ReactComponent as IDCpencil } from './IDCpencil.svg';
 import { ReactComponent as IconCollection } from './Iconcollection.svg';
 
+import { ReactComponent as SmallFrontGraphic } from './Smallsvgs/LandingGraphic80.svg';
+import { ReactComponent as TinyFrontGraphic } from './Smallsvgs/LandingGraphic60.svg';
+import { ReactComponent as MobileFrontGraphic } from './Smallsvgs/LandingGraphic40.svg';
+import { ReactComponent as SmallFrontLogo } from './Smallsvgs/LandingLogo80.svg';
+import { ReactComponent as TinyFrontLogo } from './Smallsvgs/LandingLogo60.svg';
+import { ReactComponent as MobileFrontLogo } from './Smallsvgs/LandingLogo40.svg';
+
 import "./Landingpage.css";
 import { Event } from '../../ReactGA/Event';
 
@@ -21,12 +28,24 @@ class Landingpage extends Component {
                 <div className='overallcontainer'>
                 
                     <div className='Frontlogo' >
-                        <FrontLogo />
+                        <SmallFrontLogo />
+                    </div>
+                    <div className='TinyFrontLogo' >
+                        <TinyFrontLogo />
                     </div>
                     <div className='FrontGraphic' >
-                        <FrontGraphic />
+                        <SmallFrontGraphic />
                     </div>
-                    
+                    <div className='TinyFrontGraphic' >
+                        <TinyFrontGraphic />
+                    </div>
+                    <div className='MobileFrontLogo' >
+                        <MobileFrontLogo />
+                    </div>
+                    <div className='MobileFrontGraphic' >
+                        <MobileFrontGraphic />
+                    </div>
+
                     <div className='regcontainer'>
                     <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER", "Register button clicked", "LANDING_PAGE")}>
                         <div style={{margin: '-10px 0px'}}>
@@ -43,16 +62,16 @@ class Landingpage extends Component {
                     </div>
                     <div className='white_triangle'/>
                 </div>
-                <div className='white_container' ref={this.scrollDiv} >
+                <div className='white_container' ref={this.scrollDiv} content="width=device-width, initial-scale=1">
                     <div className='What_is_idc'>
                         <div>
-                            What is the Illinois Design Challenge?
+                            What is Illinois Design Challenge?
                         </div>
                     </div>
                     <div className='What_is_idc_section'>
                         <div>
                             The Illinois Design Challenge is a 
-                            weekend long spring challenge, 
+                            weekend long sprint challenge, 
                             where participants showcase their 
                             design skills through a use of 3D Design softwares. 
                         </div>
