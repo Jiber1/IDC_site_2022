@@ -14,6 +14,7 @@ import { ReactComponent as TinyFrontLogo } from './Smallsvgs/LandingLogo60.svg';
 import { ReactComponent as MobileFrontLogo } from './Smallsvgs/LandingLogo40.svg';
 
 import "./Landingpage.css";
+import "./fonts.css";
 import { Event } from '../../ReactGA/Event';
 
 
@@ -71,9 +72,9 @@ class Landingpage extends Component {
                     <div className='What_is_idc_section'>
                         <div>
                             The Illinois Design Challenge is a 
-                            weekend long sprint challenge, 
+                            weekend long sprint challenge, from April 14-17th, 
                             where participants showcase their 
-                            design skills through a use of 3D Design softwares. 
+                            design skills through the use of 3D Design softwares. 
                         </div>
                     </div>
                     <div className='idc_pencil'>
@@ -83,7 +84,41 @@ class Landingpage extends Component {
                         <IconCollection/>
                     </div>
                 </div>
-                
+                <div className='third_container' content="width=device-width, initial-scale=1">
+                    <div className='challenge_categories'>
+                            Design Challenge Categories
+                    </div>
+                    <normal className='under_text'> 
+                        *to be released at start of competition*
+                    </normal>
+                    <div className='back_box'/>
+                    <div className='front_box'>
+                        <div className='challenge_text'> Open Challenge </div>
+                    </div>
+                    <div className='back_box_mid'/>
+                    <div className='front_box_mid'>
+                        <div className='challenge_text'> Curated Challenge </div>
+                    </div>
+                    <div className='back_box_right'/>
+                    <div className='front_box_right'>
+                        <div className='challenge_text'> Sponsored Challenge </div>
+                    </div>
+                    <normal className='open_text'> 
+                        <div>
+                        Participants will be allowed to continue a pre-existing project of their own!
+                        </div>
+                    </normal>
+                    <normal className='curated_text'> 
+                        <div>
+                        The IDC will give out a curated Design Challenge for participants to design for!
+                        </div>
+                    </normal>
+                    <normal className='sponsor_1_text'> 
+                        <div>
+                        A sponsor will provide a prompt for participants to design for!
+                        </div>
+                    </normal>
+                </div>
             </div>
         )
     }

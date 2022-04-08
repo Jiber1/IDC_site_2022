@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ca1bf48.css",
-    "main.js": "/static/js/main.c1aa9bdd.js",
-    "static/media/Iconcollection.svg": "/static/media/Iconcollection.6f882e2f42bfee6ddd217405297e173a.svg",
+    "main.css": "/static/css/main.2a7e908a.css",
+    "main.js": "/static/js/main.07a8011f.js",
+    "static/media/Iconcollection.svg": "/static/media/Iconcollection.c7bf114b1d5ec5241e7f765f8bd32cb1.svg",
     "static/media/LandingLogo.svg": "/static/media/LandingLogo.a54c2496cfe81b2bcd4b3f6f6878c168.svg",
+    "static/media/LandingLogo40.svg": "/static/media/LandingLogo40.58ee0be577be5d814247cac20096ab55.svg",
+    "static/media/LandingLogo80.svg": "/static/media/LandingLogo80.5eb7b9793849e036c8df0056b2408648.svg",
+    "static/media/LandingLogo60.svg": "/static/media/LandingLogo60.0dbeabbff87c420118a59a9daca8d53f.svg",
     "static/media/LandingGraphic.svg": "/static/media/LandingGraphic.432f1c876b528fc587e799c615bfc73c.svg",
+    "static/media/LandingGraphic40.svg": "/static/media/LandingGraphic40.1882f857ed921bcfdf5b1eb53203a594.svg",
+    "static/media/LandingGraphic60.svg": "/static/media/LandingGraphic60.bd47457f08e4a4b21b4e7f9209cd9a32.svg",
+    "static/media/LandingGraphic80.svg": "/static/media/LandingGraphic80.e0b6f3b69ebb65c630b91cdeb5a7b979.svg",
     "static/media/IDCIcon.svg": "/static/media/IDCIcon.910b6cf57a5d7c058893fea9e1740088.svg",
     "index.html": "/index.html",
     "static/media/LandingArrow.svg": "/static/media/LandingArrow.2f8af28ad41b2ae3dc7cbd0b141cb698.svg",
     "static/media/IDCpencil.svg": "/static/media/IDCpencil.520d1cf24103b82e90c23484bf513854.svg",
-    "main.6ca1bf48.css.map": "/static/css/main.6ca1bf48.css.map",
-    "main.c1aa9bdd.js.map": "/static/js/main.c1aa9bdd.js.map"
+    "main.2a7e908a.css.map": "/static/css/main.2a7e908a.css.map",
+    "main.07a8011f.js.map": "/static/js/main.07a8011f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ca1bf48.css",
-    "static/js/main.c1aa9bdd.js"
+    "static/css/main.2a7e908a.css",
+    "static/js/main.07a8011f.js"
   ]
 }
