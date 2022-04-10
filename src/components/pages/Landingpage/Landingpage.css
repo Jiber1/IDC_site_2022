@@ -6,7 +6,7 @@
     margin:0;
     overflow-y: scroll;
     display:grid;
-    grid-template-rows: 1000px 950px 1000px 1000px;
+    grid-template-rows: 1000px 950px 1000px 900px 180px 1200px;
     top:0;
     left:0;
     background:#fff;
@@ -356,6 +356,226 @@
     
 }
 
+.fourth_container {
+    position:relative;
+    padding:0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    top:100px;
+    left:0;
+    background:#fff;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: 10px;
+    font-size: 1.1rem;
+}
+
+.Submission_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    grid-row: 1;
+    transform:translate(calc(-75px + -18vw));
+}
+
+.gradCAD_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    grid-row: 2;
+    transform:translate(calc(-167px + -18vw), -20px);
+}
+.grabCAD_text {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    grid-row:3;
+    width: auto;
+    transform:translate(calc(62px + -18vw), -75px);
+}
+.Devpost_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    grid-row: 4;
+    transform:translate(calc(-163px + -18vw), -50px);
+}
+.Devpost_text {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    grid-row:5;
+    width: auto;
+    transform:translate(calc(42px + -18vw), -50px);
+}
+.Circle_arrow_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    grid-row:6;
+    transform:translate(calc(10px + 25vw), -520px);
+}
+.Small_Circle_arrow_wrapper {
+    display: none;
+}
+.Mobile_Circle_arrow_wrapper {
+    display:none;
+}
+
+.fifth_container {
+    position:relative;
+    padding:0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    top:100px;
+    left:0;
+    background:#fff;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: 6vh repeat(20, 1fr) 2vh;
+    grid-gap: 0px;
+    grid-auto-rows: 10px;
+}
+
+.Event_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52.2609px;
+    line-height: 63px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #303030;
+    width: 400px;
+    transform: translate(calc(-180px + 48vw), 100px);
+}
+
+.daylist {
+    list-style: none;
+    padding: 0px 0px;
+    margin-top: -60px;
+}
+
+.Day_1 {
+    grid-area: 11/ 4/ 11/ 8;
+    width: 280px;
+}
+.Day_1_logo {
+    grid-area: 1/ 4/ 3/ 8;
+}
+.day1_marker {
+    display:flex;
+    width: 12.38px;
+    height: 115.5px;
+    background: #219653;
+    transform: translate(-200%, -92%);
+}
+.Day_1_title {
+    grid-area: 8/ 4/ 8/ 8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    width: 286.27px;
+    height: 9.93px;
+}
+.Day_2 {
+    grid-area: 11/ 8/ 11/ 12;
+    width: 280px;
+}
+.Day_2_logo {
+    grid-area: 1/ 8/ 3/ 12;
+}
+.day2_marker {
+    display:flex;
+    width: 12.38px;
+    height: 115.5px;
+    background: #27AE96;
+    transform: translate(-200%, -92%);
+}
+.Day_2_title {
+    grid-area: 8/ 8/ 8/ 12;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    width: 286.27px;
+    height: 99.93px;
+}
+
+.Day_3 {
+    grid-area: 11/ 12/ 11/ 16;
+    width: 280px;
+}
+.Day_3_logo {
+    grid-area: 1/ 12/ 3/ 16;
+}
+.day3_marker {
+    display:flex;
+    width: 12.38px;
+    height: 115.5px;
+    background: #2796AE;
+    transform: translate(-200%, -92%);
+}
+.Day_3_title {
+    grid-area: 8/ 12/ 8/ 16;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    width: 286.27px;
+    height: 99.93px;
+}
+.Day_4 {
+    grid-area: 11/ 16/ 11/ 20;
+    width: 280px;
+}
+.Day_4_logo {
+    grid-area: 1/ 16/ 3/ 20;
+}
+.day4_marker {
+    display:flex;
+    width: 12.38px;
+    height: 115.5px;
+    background: #2755AE;
+    transform: translate(-200%, -92%);
+}
+.Day_4_title {
+    grid-area: 8/ 16/ 8/ 20;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    width: 286.27px;
+    height: 99.93px;
+}
+
+.Discord_text {
+    grid-row: 18;
+    grid-area: 12/ 4/ 15/ 20;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #317DEE;
+}
+
+
+
 
 @media screen and (max-width: 1500px) {
     .Landingpage {
@@ -364,7 +584,7 @@
         margin:0;
         overflow-y: scroll;
         display:grid;
-        grid-template-rows: 1000px 800px 1000px 1000px;
+        grid-template-rows: 1000px 800px 1000px 1000px 180px 2000px;
         top:0;
         left:0;
         background:#fff;
@@ -693,6 +913,196 @@
         
     }
 
+    .fourth_container {
+        position:relative;
+        padding:0;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        top:100px;
+        left:0;
+        background:#fff;
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: repeat(20, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: 10px;
+        font-size: 1.1rem;
+    }
+    
+    .Submission_title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        grid-row: 1;
+        transform:translate(calc(0px + -20vw));
+    }
+    
+    .gradCAD_wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        grid-row: 2;
+        transform:translate(calc(-97px + -20vw), -20px);
+    }
+    .grabCAD_text {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        grid-row:3;
+        width: auto;
+        font-size: 28px;
+        transform:translate(calc(20px + -20vw), -75px);
+    }
+    .Devpost_wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        grid-row: 4;
+        transform:translate(calc(-100px + -20vw), -50px);
+    }
+    .Devpost_text {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        grid-row:5;
+        width: auto;
+        font-size: 28px;
+        transform:translate(calc(7px + -20vw), -50px);
+    }
+    .Circle_arrow_wrapper {
+        display: none;
+    }
+    .Small_Circle_arrow_wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        grid-row:6;
+        transform:translate(calc(50px + 25vw), -520px);
+    }
+    .Mobile_Circle_arrow_wrapper {
+        display:none;
+    }
+
+    .fifth_container {
+        position:relative;
+        padding:0;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        top:00px;
+        left:0;
+        background:#fff;
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: repeat(20, 1fr);
+        grid-template-columns: 6vh repeat(20, 1fr) 2vh;
+        grid-gap: 0px;
+        grid-auto-rows: 10px;
+    }
+    
+    .Event_title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52.2609px;
+        line-height: 63px;
+        display:flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #303030;
+        width: 400px;
+        transform: translate(calc(-180px + 48vw));
+    }
+
+    .Day_1_title {
+        grid-area: 8/ 5/ 8/ 12;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        width: 286.27px;
+        height: 9.93px;
+        transform: translate(0%, -100%);
+    }
+    
+    .Day_1 {
+        grid-area: 8/ 5/ 8/ 12;
+        transform: translate(0%, 25%);
+    }
+    .Day_1_logo {
+        grid-area: 1/ 5/ 3/ 12;
+    }
+    .Day_2_title {
+        grid-area: 8/ 14/ 8/ 21;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        width: 286.27px;
+        height: 9.93px;
+        transform: translate(0%, -100%);
+    }
+    .Day_2 {
+        grid-area: 8/ 14/ 8/ 21;
+        transform: translate(0%, 25%);
+    }
+    .Day_2_logo {
+        grid-area: 1/ 14/ 3/ 17;
+    }
+
+    .Day_3_title {
+        grid-area: 13/ 5/ 13/ 13;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        width: 286.27px;
+        height: 9.93px;
+        transform: translate(0%, 300%);
+    }
+    .Day_3 {
+        grid-area: 16/ 5/ 16/ 13;
+        transform: translate(0%, 15%);
+    }
+    .Day_3_logo {
+        grid-area: 12/ 5/ 12/ 13;
+    }
+    .Day_4_title {
+        grid-area: 13/ 14/ 13/ 21;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        width: 286.27px;
+        height: 9.93px;
+        transform: translate(0%, 300%);
+    }
+    .Day_4 {
+        grid-area: 16/ 14/ 16/ 21;
+        transform: translate(0%, 15%);
+    }
+    .Day_4_logo {
+        grid-area: 12/ 14/ 12/ 21;
+    }
+    
+    .Discord_text {
+        grid-area: 19/ 4/ 19/ 20;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #317DEE;
+    }
+
     @media screen and (max-width: 960px) {
         .Landingpage {
             position:fixed;
@@ -700,7 +1110,7 @@
             margin:0;
             overflow-y: scroll;
             display:grid;
-            grid-template-rows: 1000px 700px 1000px 1000px;
+            grid-template-rows: 1000px 700px 1000px 1150px 180px 2000px;
             top:0;
             left:0;
             background:#fff;
@@ -1041,6 +1451,198 @@
             margin-top:30px;
             
         }
+
+        .fourth_container {
+            position:relative;
+            padding:0;
+            overflow-y:hidden;
+            overflow-x:hidden;
+            top:100px;
+            left:0;
+            background:#fff;
+            width: 100%;
+            height: 100%;
+            display:grid;
+            grid-template-rows: repeat(20, 1fr);
+            grid-gap: 0px;
+            grid-auto-rows: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .Submission_title {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row: 1;
+            font-size: 42px;
+            transform:translate(calc(0px + 0vw), 80px);
+        }
+        
+        .gradCAD_wrapper {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row: 2;
+            transform:translate(calc(0vw), 30px);
+        }
+        .grabCAD_text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row:3;
+            width: auto;
+            font-size: 28px;
+            transform:translate(calc(0vw), -40px);
+        }
+        .Devpost_wrapper {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row: 4;
+            transform:translate(calc(0vw), -20px);
+        }
+        .Devpost_text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row:5;
+            width: auto;
+            font-size: 28px;
+            transform:translate(calc(0vw), -50px);
+        }
+        .Circle_arrow_wrapper {
+            display: none;
+        }
+        .Small_Circle_arrow_wrapper {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            grid-row:6;
+            transform:translate(calc(0vw), -20px);
+        }
+        .Mobile_Circle_arrow_wrapper {
+            display:none;
+        }
+        .fifth_container {
+            position:relative;
+            padding:0;
+            overflow-y:hidden;
+            overflow-x:hidden;
+            top:00px;
+            left:0;
+            background:#fff;
+            width: 100%;
+            height: 100%;
+            display:grid;
+            grid-template-rows: repeat(20, 1fr);
+            grid-template-columns: 6vh repeat(20, 1fr) 2vh;
+            grid-gap: 0px;
+            grid-auto-rows: 10px;
+        }
+        
+        .Event_title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52.2609px;
+            line-height: 63px;
+            display:flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color: #303030;
+            width: 400px;
+            transform: translate(calc(-180px + 48vw));
+        }
+    
+        .Day_1_title {
+            grid-area: 8/ 5/ 8/ 12;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            width: 286.27px;
+            height: 9.93px;
+            transform: translate(-40px, -100%);
+        }
+        
+        .Day_1 {
+            grid-area: 8/ 5/ 8/ 12;
+            transform: translate(-40px, 25%);
+        }
+        .Day_1_logo {
+            grid-area: 1/ 5/ 3/ 12;
+            transform: translate(-40px);
+        }
+        .Day_2_title {
+            grid-area: 8/ 14/ 8/ 21;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            width: 286.27px;
+            height: 9.93px;
+            transform: translate(0%, -100%);
+        }
+        .Day_2 {
+            grid-area: 8/ 14/ 8/ 21;
+            transform: translate(0%, 25%);
+        }
+        .Day_2_logo {
+            grid-area: 1/ 14/ 3/ 17;
+        }
+    
+        .Day_3_title {
+            grid-area: 13/ 5/ 13/ 13;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            width: 286.27px;
+            height: 9.93px;
+            transform: translate(-40px, 300%);
+        }
+        .Day_3 {
+            grid-area: 16/ 5/ 16/ 13;
+            transform: translate(-40px, 15%);
+        }
+        .Day_3_logo {
+            grid-area: 12/ 5/ 12/ 13;
+            transform: translate(-40px);
+        }
+        .Day_4_title {
+            grid-area: 13/ 14/ 13/ 21;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            width: 286.27px;
+            height: 9.93px;
+            transform: translate(0%, 300%);
+        }
+        .Day_4 {
+            grid-area: 16/ 14/ 16/ 21;
+            transform: translate(0%, 15%);
+        }
+        .Day_4_logo {
+            grid-area: 12/ 14/ 12/ 21;
+        }
+        
+        .Discord_text {
+            grid-area: 19/ 4/ 19/ 20;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            text-align: center;
+        
+            color: #317DEE;
+        }
         
         @media screen and (max-width: 680px) {
             .Landingpage {
@@ -1049,7 +1651,7 @@
                 margin:0;
                 overflow-y: scroll;
                 display:grid;
-                grid-template-rows: 1000px 800px 1000px 1000px;
+                grid-template-rows: 1000px 800px 1000px 1150px 180px 4000px;
                 top:0;
                 left:0;
                 background:#fff;
@@ -1384,6 +1986,201 @@
                 
             }
 
+            .fourth_container {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                top:100px;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(20, 1fr);
+                grid-gap: 0px;
+                grid-auto-rows: 10px;
+                font-size: 1.1rem;
+            }
+            
+            .Submission_title {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 1;
+                font-size: 42px;
+                transform:translate(calc(0px + 0vw), 80px);
+            }
+            
+            .gradCAD_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 2;
+                transform:translate(calc(0vw), 30px);
+            }
+            .grabCAD_text {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:3;
+                width: auto;
+                font-size: 28px;
+                transform:translate(calc(0vw), -40px);
+            }
+            .Devpost_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 4;
+                transform:translate(calc(0vw), -20px);
+            }
+            .Devpost_text {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:5;
+                width: auto;
+                font-size: 28px;
+                transform:translate(calc(0vw), -50px);
+            }
+            .Circle_arrow_wrapper {
+                display: none;
+            }
+            .Small_Circle_arrow_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:6;
+                transform:translate(calc(0vw), -20px);
+            }
+            .Mobile_Circle_arrow_wrapper {
+                display:none;
+            }
+
+            .fifth_container {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(20, 1fr);
+                grid-template-columns: 6vh repeat(20, 1fr) 2vh;
+                grid-gap: 4px;
+                grid-auto-rows: 10px;
+            }
+            
+            .Event_title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 37.2609px;
+                line-height: 63px;
+                display:flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                color: #303030;
+                width: 300px;
+                transform: translate(calc(-140px + 48vw));
+            }
+        
+            .Day_1_title {
+                grid-area: 2/ 9/ 8/ 12;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 286.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), 600%);
+            }
+            
+            .Day_1 {
+                grid-area: 2/ 9/ 8/ 12;
+                transform: translate(calc(-380px + 48vw), 25%);
+            }
+            .Day_1_logo {
+                grid-area: 1/ 9/ 3/ 12;
+                transform: translate(calc(-380px + 48vw));
+            }
+            .Day_2_title {
+                grid-area: 8/ 8/ 8/ 13;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 300px;
+                height: 9.93px;
+                transform: translate(calc(-340px + 48vw), -100%);
+            }
+            .Day_2 {
+                grid-area: 14/ 9/ 8/ 12;
+                transform: translate(calc(-380px + 48vw), 18%);
+            }
+            .Day_2_logo {
+                grid-area: 7/ 9/ 7/ 17;
+                transform: translate(calc(-380px + 48vw), -35%);
+            }
+        
+            .Day_3_title {
+                grid-area: 15/ 9/ 15/ 17;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 300.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), -100%);
+            }
+            .Day_3 {
+                grid-area: 16/ 9/ 16/ 17;
+                transform: translate(calc(-380px + 48vw), 15%);
+            }
+            .Day_3_logo {
+                grid-area: 13/ 9/ 13/ 17;
+                transform: translate(calc(-380px + 48vw), 45%);
+            }
+            .Day_4_title {
+                grid-area: 18/ 9/ 18/ 17;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 286.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), 300%);
+            }
+            .Day_4 {
+                grid-area: 19/ 9/ 19/ 17;
+                transform: translate(calc(-380px + 48vw), 8%);
+            }
+            .Day_4_logo {
+                transform: translate(calc(-380px + 48vw));
+                grid-area: 17/ 9/ 17/ 17;
+            }
+            
+            .Discord_text {
+                grid-area: 20/ 7/ 20/ 14;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18.7px;
+                line-height: 36px;
+                width: 300px;
+                text-align: center;
+                transform: translate(calc(-350px + 48vw));
+                color: #317DEE;
+            }
+
             @media screen and (max-width: 600px) {
                 .Landingpage {
                     position:fixed;
@@ -1391,7 +2188,7 @@
                     margin:0;
                     overflow-y: scroll;
                     display:grid;
-                    grid-template-rows: 1000px 800px 1000px 1000px;
+                    grid-template-rows: 1000px 840px 1000px 1150px 150px 4000px;
                     top:0;
                     left:0;
                     background:#fff;
@@ -1584,7 +2381,7 @@
                 color: #317DEE;
                 grid-row: 4;
                 width: 430px;
-                transform: translate(calc(52vw - 450px));
+                transform: translate(calc(52vw - 420px));
             }
         
             .under_text {
@@ -1599,7 +2396,7 @@
                 text-align: center;
                 color: #317DEE;
                 width: 430px;
-                transform: translate(calc(52vw - 450px));
+                transform: translate(calc(52vw - 420px));
             }
         
             .back_box {
@@ -1713,7 +2510,7 @@
                 grid-column: 4;
                 width: calc((735px + 100vw - 680px) * 0.3);
                 height: 138px;
-                transform: translate(calc((503px + 19vw - 450px)));
+                transform: translate(calc((503px + 19vw - 460px)));
                 margin-top:20px;
                 
             }
@@ -1722,9 +2519,203 @@
                 grid-column: 5;
                 width: calc((735px + 100vw - 680px) * 0.3);
                 height: 138px;
-                transform: translate(calc((-907px + 43vw - 320px) * 0.29));
+                transform: translate(calc((-907px + 43vw - 360px) * 0.29));
                 margin-top:30px;
                 
+            }
+
+            .fourth_container {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                top:100px;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(20, 1fr);
+                grid-gap: 0px;
+                grid-auto-rows: 10px;
+                font-size: 1.1rem;
+            }
+            
+            .Submission_title {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 1;
+                font-size: 42px;
+                transform:translate(calc(0px + 0vw), 80px);
+            }
+            
+            .gradCAD_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 2;
+                transform:translate(calc(0vw), 30px);
+            }
+            .grabCAD_text {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:3;
+                width: auto;
+                font-size: 24px;
+                transform:translate(calc(0vw), -40px);
+            }
+            .Devpost_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row: 4;
+                transform:translate(calc(0vw), -20px);
+            }
+            .Devpost_text {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:5;
+                width: auto;
+                font-size: 24px;
+                transform:translate(calc(0vw), -50px);
+            }
+            .Circle_arrow_wrapper {
+                display: none;
+            }
+            .Small_Circle_arrow_wrapper {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                grid-row:6;
+                transform:translate(calc(0vw), -20px);
+            }
+            .Mobile_Circle_arrow_wrapper {
+                display:none;
+            }
+            .fifth_container {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(20, 1fr);
+                grid-template-columns: 12vh repeat(20, 1fr) 2vh;
+                grid-gap: 4px;
+                grid-auto-rows: 10px;
+            }
+            
+            .Event_title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 37.2609px;
+                line-height: 63px;
+                display:flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                color: #303030;
+                width: 300px;
+                transform: translate(calc(-140px + 48vw));
+            }
+        
+            .Day_1_title {
+                grid-area: 2/ 9/ 8/ 12;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 286.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), 600%);
+            }
+            
+            .Day_1 {
+                grid-area: 2/ 9/ 8/ 12;
+                transform: translate(calc(-380px + 48vw), 25%);
+            }
+            .Day_1_logo {
+                grid-area: 1/ 9/ 3/ 12;
+                transform: translate(calc(-380px + 48vw));
+            }
+            .Day_2_title {
+                grid-area: 8/ 8/ 8/ 13;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 300px;
+                height: 9.93px;
+                transform: translate(calc(-340px + 48vw), -100%);
+            }
+            .Day_2 {
+                grid-area: 14/ 9/ 8/ 12;
+                transform: translate(calc(-380px + 48vw), 18%);
+            }
+            .Day_2_logo {
+                grid-area: 7/ 9/ 7/ 17;
+                transform: translate(calc(-380px + 48vw), -35%);
+            }
+        
+            .Day_3_title {
+                grid-area: 15/ 9/ 15/ 17;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 300.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), -100%);
+            }
+            .Day_3 {
+                grid-area: 16/ 9/ 16/ 17;
+                transform: translate(calc(-380px + 48vw), 15%);
+            }
+            .Day_3_logo {
+                grid-area: 13/ 9/ 13/ 17;
+                transform: translate(calc(-380px + 48vw), 45%);
+            }
+            .Day_4_title {
+                grid-area: 18/ 9/ 18/ 17;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 29.7px;
+                line-height: 36px;
+                width: 286.27px;
+                height: 9.93px;
+                transform: translate(calc(-380px + 48vw), 300%);
+            }
+            .Day_4 {
+                grid-area: 19/ 9/ 19/ 17;
+                transform: translate(calc(-380px + 48vw), 8%);
+            }
+            .Day_4_logo {
+                transform: translate(calc(-380px + 48vw));
+                grid-area: 17/ 9/ 17/ 17;
+            }
+            
+            .Discord_text {
+                grid-area: 20/ 7/ 20/ 14;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18.7px;
+                line-height: 36px;
+                width: 300px;
+                text-align: center;
+                transform: translate(calc(-350px + 48vw));
+                color: #317DEE;
             }
 
                 @media screen and (max-width: 500px) {
@@ -1734,7 +2725,7 @@
                         margin:0;
                         overflow-y: scroll;
                         display:grid;
-                        grid-template-rows: 900px 800px 1000px 1000px ;
+                        grid-template-rows: 900px 800px 1000px 1150px 150px 4000px;;
                         top:0;
                         left:0;
                         background:#fff;
@@ -1863,8 +2854,8 @@
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 30.2609px;
-                        line-height: 63px;
+                        font-size: 26.2609px;
+                        line-height: 50px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -2078,6 +3069,201 @@
                         transform: translate(calc((-885px + 75vw - 320px) * 0.29));
                         margin-top:30px;
                         font-size: 12px;
+                    }
+
+                    .fourth_container {
+                        position:relative;
+                        padding:0;
+                        overflow-y:hidden;
+                        overflow-x:hidden;
+                        top:100px;
+                        left:0;
+                        background:#fff;
+                        width: 100%;
+                        height: 100%;
+                        display:grid;
+                        grid-template-rows: repeat(20, 1fr);
+                        grid-gap: 0px;
+                        grid-auto-rows: 10px;
+                        font-size: 1.1rem;
+                    }
+                    
+                    .Submission_title {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row: 1;
+                        font-size: 42px;
+                        width: 380px;
+                        transform:translate(calc(52vw - 197px), 0px);
+                    }
+                    
+                    .gradCAD_wrapper {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row: 2;
+                        transform:translate(calc(52vw - 267px), -20px);
+                    }
+                    .grabCAD_text {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row:3;
+                        width: 250px;
+                        font-size: 20px;
+                        transform:translate(calc(52vw - 129px), -90px);
+                    }
+                    .Devpost_wrapper {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row: 4;
+                        transform:translate(calc(52vw - 267px), -80px);
+                    }
+                    .Devpost_text {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row:5;
+                        width: 250px;
+                        font-size: 20px;
+                        transform:translate(calc(52vw - 129px), -100px);
+                    }
+                    .Circle_arrow_wrapper {
+                        display: none;
+                    }
+                    .Small_Circle_arrow_wrapper {
+                        display: none;
+                    }
+                    .Mobile_Circle_arrow_wrapper {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        grid-row:6;
+                        transform:translate(calc(52vw - 267px), -90px);
+                    }
+                    .fifth_container {
+                        position:relative;
+                        padding:0;
+                        overflow-y:hidden;
+                        overflow-x:hidden;
+                        left:0;
+                        background:#fff;
+                        width: 100%;
+                        height: 100%;
+                        display:grid;
+                        grid-template-rows: repeat(20, 1fr);
+                        grid-template-columns: 12vh repeat(20, 1fr) 2vh;
+                        grid-gap: 4px;
+                        grid-auto-rows: 10px;
+                    }
+                    
+                    .Event_title {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 37.2609px;
+                        line-height: 63px;
+                        display:flex;
+                        align-items: center;
+                        text-align: center;
+                        justify-content: center;
+                        color: #303030;
+                        width: 300px;
+                        transform: translate(calc(-140px + 48vw));
+                    }
+                
+                    .Day_1_title {
+                        grid-area: 2/ 9/ 8/ 12;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 29.7px;
+                        line-height: 36px;
+                        width: 286.27px;
+                        height: 9.93px;
+                        transform: translate(calc(-200px + 20vw), 600%);
+                    }
+                    
+                    .Day_1 {
+                        grid-area: 2/ 9/ 8/ 12;
+                        transform: translate(calc(-190px + 20vw), 25%);
+                    }
+                    .Day_1_logo {
+                        grid-area: 1/ 9/ 3/ 12;
+                        transform: translate(calc(-200px + 20vw));
+                    }
+                    .Day_2_title {
+                        grid-area: 8/ 8/ 8/ 13;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 29.7px;
+                        line-height: 36px;
+                        width: 300px;
+                        height: 9.93px;
+                        transform: translate(calc(-200px + 20vw), -100%);
+                    }
+                    .Day_2 {
+                        grid-area: 14/ 9/ 8/ 12;
+                        transform: translate(calc(-190px + 20vw), 18%);
+                    }
+                    .Day_2_logo {
+                        grid-area: 7/ 9/ 7/ 17;
+                        transform: translate(calc(-200px + 20vw), -35%);
+                    }
+                
+                    .Day_3_title {
+                        grid-area: 15/ 9/ 15/ 17;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 29.7px;
+                        line-height: 36px;
+                        width: 300.27px;
+                        height: 9.93px;
+                        transform: translate(calc(-200px + 20vw), -100%);
+                    }
+                    .Day_3 {
+                        grid-area: 16/ 9/ 16/ 17;
+                        transform: translate(calc(-190px + 20vw), 15%);
+                    }
+                    .Day_3_logo {
+                        grid-area: 13/ 9/ 13/ 17;
+                        transform: translate(calc(-200px + 20vw), 45%);
+                    }
+                    .Day_4_title {
+                        grid-area: 18/ 9/ 18/ 17;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 29.7px;
+                        line-height: 36px;
+                        width: 286.27px;
+                        height: 9.93px;
+                        transform: translate(calc(-200px + 20vw), 300%);
+                    }
+                    .Day_4 {
+                        grid-area: 19/ 9/ 19/ 17;
+                        transform: translate(calc(-190px + 20vw), 8%);
+                    }
+                    .Day_4_logo {
+                        transform: translate(calc(-200px + 20vw));
+                        grid-area: 17/ 9/ 17/ 17;
+                    }
+                    
+                    .Discord_text {
+                        grid-area: 20/ 7/ 20/ 14;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18.7px;
+                        line-height: 36px;
+                        width: 300px;
+                        text-align: center;
+                        transform: translate(calc(-185px + 20vw));
+                        color: #317DEE;
                     }
                 }
             }

@@ -7,3 +7,89 @@ normal {
     text-align: center;
     color: #000C1D;
 }
+
+medium {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+
+    color: #303030;
+
+}
+
+large {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #303030;
+}
+
+day1event_date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8px;
+    line-height: 24px;
+
+    color: #219653;
+}
+
+day2event_date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8px;
+    line-height: 24px;
+
+    color: #27AE96;
+}
+
+day3event_date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8px;
+    line-height: 24px;
+
+    color: #2796AE;
+}
+
+day4event_date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8px;
+    line-height: 24px;
+
+    color: #2755AE;
+}
+
+day1event_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.1px;
+    line-height: 28px;
+    color: #000000;
+}
+
+day1event_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8px;
+    line-height: 24px;
+
+    color: #000000;
+
+}

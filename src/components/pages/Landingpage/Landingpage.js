@@ -12,6 +12,20 @@ import { ReactComponent as MobileFrontGraphic } from './Smallsvgs/LandingGraphic
 import { ReactComponent as SmallFrontLogo } from './Smallsvgs/LandingLogo80.svg';
 import { ReactComponent as TinyFrontLogo } from './Smallsvgs/LandingLogo60.svg';
 import { ReactComponent as MobileFrontLogo } from './Smallsvgs/LandingLogo40.svg';
+import { ReactComponent as GrabCAD } from './GrabCAD.svg';
+import { ReactComponent as Devpost } from './Devpost.svg';
+import { ReactComponent as Arrow } from './Circle_arrow.svg';
+import { ReactComponent as SmallArrow } from './Smallsvgs/Circle_arrow_80.svg';
+import { ReactComponent as MobileArrow } from './Smallsvgs/Circle_arrow_60.svg';
+
+import { Events_One, Events_Two, Events_Three, Events_Four } from './Events';
+import { ReactComponent as EventD1 } from './EventD1.svg';
+import { ReactComponent as EventD2 } from './EventD2.svg';
+import { ReactComponent as EventD3 } from './EventD3.svg';
+import { ReactComponent as EventD4 } from './EventD4.svg';
+
+
+
 
 import "./Landingpage.css";
 import "./fonts.css";
@@ -104,21 +118,124 @@ class Landingpage extends Component {
                         <div className='challenge_text'> Sponsored Challenge </div>
                     </div>
                     <normal className='open_text'> 
-                        <div>
+                        
                         Participants will be allowed to continue a pre-existing project of their own!
-                        </div>
+                    
                     </normal>
                     <normal className='curated_text'> 
-                        <div>
+                       
                         The IDC will give out a curated Design Challenge for participants to design for!
-                        </div>
+                        
                     </normal>
                     <normal className='sponsor_1_text'> 
-                        <div>
+                       
                         A sponsor will provide a prompt for participants to design for!
-                        </div>
+                        
                     </normal>
                 </div>
+                <div className='fourth_container'>
+                    <large className="Submission_title"> Submission Details </large>
+                    <div className='gradCAD_wrapper'>
+                        <GrabCAD />
+                    </div>
+                    <medium className="grabCAD_text">All CAD files will be submitted through <br/>GrabCAD</medium>
+                    <div className='Devpost_wrapper'>
+                        <Devpost />
+                    </div>
+                    <medium className="Devpost_text">Portfolios will be submitted through <br/>DevPost</medium>
+                    <div className='Circle_arrow_wrapper'>
+                        <Arrow />
+                    </div>
+                    <div className='Small_Circle_arrow_wrapper'>
+                        <SmallArrow />
+                    </div>
+                    <div className='Mobile_Circle_arrow_wrapper'>
+                        <MobileArrow />
+                    </div>
+                </div>
+                <large className='Event_title'> Event Schedule </large>
+                <div className='fifth_container'>
+                <div className='Day_1_logo'><EventD1/></div>
+                <div className='Day_1_title'> Introduction to the CADathon </div>
+                    <div className='Day_1'>
+                    <ul className='Event_block'>
+                        {Events_One.map((item, index) => {
+                            return (
+                                <li key={index} className='daylist'>
+                                    <div className={item.tag}>
+                                        <day1event_title>{item.title}</day1event_title> <br/>
+                                        <day1event_date>{item.date} </day1event_date> <br/>
+                                        <day1event_text>{item.place}</day1event_text> <br/>
+                                        <day1event_text>{item.description}</day1event_text>
+                                        <div className='day1_marker'/>
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                    </div>
+                    <div className='Day_2_logo'><EventD2/></div>
+                    <div className='Day_2_title'> CAD Basics and Social Events </div>
+                    <div className='Day_2'>
+                    <ul className='Event_block'>
+                        {Events_Two.map((item, index) => {
+                            return (
+                                <li key={index} className='daylist'>
+                                    <div className={item.tag}>
+                                        <day1event_title>{item.title}</day1event_title> <br/>
+                                        <day2event_date>{item.date} </day2event_date> <br/>
+                                        <day1event_text>{item.place}</day1event_text> <br/>
+                                        <day1event_text>{item.description}</day1event_text>
+                                        <div className='day2_marker'/>
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                    </div>
+                    <div className='Day_3_logo'><EventD3/></div>
+                    <div className='Day_3_title'> Keynotes and Work Time </div>
+                    <div className='Day_3'>
+                    <ul className='Event_block'>
+                        {Events_Three.map((item, index) => {
+                            return (
+                                <li key={index} className='daylist'>
+                                    <div className={item.tag}>
+                                        <day1event_title>{item.title}</day1event_title> <br/>
+                                        <day3event_date>{item.date} </day3event_date> <br/>
+                                        <day1event_text>{item.place}</day1event_text> <br/>
+                                        <day1event_text>{item.description}</day1event_text>
+                                        <div className='day3_marker'/>
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                    </div>
+                    <div className='Day_4_logo'><EventD4/></div>
+                    <div className='Day_4_title'> Making Portfolios and finishing off </div>
+                    <div className='Day_4'>
+                        <ul className='Event_block'>
+                        {Events_Four.map((item, index) => {
+                            return (
+                                <li key={index} className='daylist'>
+                                    <div className={item.tag}>
+                                        <day1event_title>{item.title}</day1event_title> <br/>
+                                        <day4event_date>{item.date} </day4event_date> <br/>
+                                        <day1event_text>{item.place}</day1event_text> <br/>
+                                        <day1event_text>{item.description}</day1event_text>
+                                        <div className='day4_marker'/>
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                    </div>
+                    <div className='Discord_text'>
+                        Discord Moderation will take place from 12:00 PM to 12:00 AM Everyday
+                    </div>
+                </div>
+                
             </div>
         )
     }
