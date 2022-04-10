@@ -24,6 +24,11 @@ import { ReactComponent as EventD2 } from './EventD2.svg';
 import { ReactComponent as EventD3 } from './EventD3.svg';
 import { ReactComponent as EventD4 } from './EventD4.svg';
 
+import { ReactComponent as IJBLogo } from './IJetBrunswickLogo.svg';
+import { ReactComponent as GraykeaLogo } from './GraykeaLogo.svg';
+import { ReactComponent as MobileIJBLogo } from './Smallsvgs/MobileIJBLogo.svg';
+import { ReactComponent as MobileGraykeaLogo } from './Smallsvgs/MobileGraykeaLogo.svg';
+
 
 
 
@@ -235,7 +240,47 @@ class Landingpage extends Component {
                         Discord Moderation will take place from 12:00 PM to 12:00 AM Everyday
                     </div>
                 </div>
-                
+                <div className='sixth_container'>
+                    <large className='Sponsor_Companies'>
+                        Sponsor Companies
+                    </large>
+                    <div className='IJet_brunswick_container'>
+                        <div className='IJB_logo'>
+                            <IJBLogo/>
+                        </div>
+                        <div className='Mobile_IJB_logo'>
+                            <MobileIJBLogo/>
+                        </div>
+                        <div className='IJB_text'>
+                        Brunswick is an industry leader in the marine 
+                        space who focus on lifestyle products like recreational boats, 
+                        marine engines, active recreation, and activated workplace products.
+                        </div>
+                        <div className='IBJ_learn_more_btn'>
+                            <a className='IBJ_btn_wrapper' href="https://ijetlab.com/home">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div className='Graykea_container'>
+                        <div className='Graykea_logo'>
+                            <GraykeaLogo/>
+                        </div>
+                        <div className='Mobile_Graykea_logo'>
+                            <MobileGraykeaLogo/>
+                        </div>
+                        <div className='Graykea_text'>
+                        GrayKea is a social impact startup that aims to 
+                        relieve the financial stress of students in college 
+                        through alumni crowdfunding.
+                        </div>
+                        <div className='Graykea_learn_more_btn'>
+                            <a className='Graykea_btn_wrapper' href="https://www.graykea.com/">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
