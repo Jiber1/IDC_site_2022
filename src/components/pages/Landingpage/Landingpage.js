@@ -29,6 +29,15 @@ import { ReactComponent as GraykeaLogo } from './GraykeaLogo.svg';
 import { ReactComponent as MobileIJBLogo } from './Smallsvgs/MobileIJBLogo.svg';
 import { ReactComponent as MobileGraykeaLogo } from './Smallsvgs/MobileGraykeaLogo.svg';
 
+import { ReactComponent as FooterLogo } from './IDCLogofooter.svg';
+import { ReactComponent as FooterSponsor } from './Footer_logo_collection.svg';
+import { ReactComponent as DiscordLogo } from './discord.svg';
+import { ReactComponent as InstagramLogo } from './instagram.svg';
+import { ReactComponent as EmailLogo } from './email.svg';
+
+import { ReactComponent as FooterSponsorMobile } from './Footerlogocollectionmobile.svg';
+
+
 
 
 
@@ -279,6 +288,39 @@ class Landingpage extends Component {
                                 Learn More
                             </a>
                         </div>
+                    </div>
+                </div>
+                <div className='footer'>
+                    <div className='time_to_register_text'>
+                        It's time to register!
+                    </div>
+                    <div className='footer_reg_container'>
+                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER_FOOTER", "Register button clicked", "LANDING_PAGE")}>
+                        <div style={{margin: '-10px 0px'}}>
+                            Register
+                        </div>
+                    </a>
+                    </div>
+                    <div className='foot_container'>
+                        <div className='idc_footer_logo'>
+                            <FooterLogo/>
+                        </div>
+                        <div className='sponsor_footer_logo'>
+                            <FooterSponsor/>
+                        </div>
+                        <div className='sponsor_footer_logo_mobile'>
+                            <FooterSponsorMobile/>
+                        </div>
+
+                        <a className='discord_logo' href="https://discord.gg/BKJYhuBtkc">
+                            <DiscordLogo/>
+                        </a>
+                        <a className='instagram_logo' href="https://instagram.com/illinoisdesignchallenge">
+                            <InstagramLogo/>
+                        </a>
+                        <a className='email_logo' href="mailto:illinoisdesignchallenge@gmail.com">
+                            <EmailLogo/>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@
     margin:0;
     overflow-y: scroll;
     display:grid;
-    grid-template-rows: 1000px 950px 1000px 900px 180px 1200px 1000px;
+    grid-template-rows: 1000px 950px 1000px 900px 180px 1200px 1000px 700px;
     top:0;
     left:0;
     background:#fff;
@@ -562,15 +562,13 @@
 }
 
 .Discord_text {
-    grid-row: 18;
-    grid-area: 12/ 4/ 15/ 20;
+    grid-area: 13/ 4/ 15/ 20;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 29.7px;
     line-height: 36px;
     text-align: center;
-
     color: #317DEE;
 }
 
@@ -579,7 +577,7 @@
     padding:0;
     overflow-y:hidden;
     overflow-x:hidden;
-    top:100px;
+    top:50px;
     left:0;
     background:#fff;
     width: 100%;
@@ -673,6 +671,7 @@
 .Graykea_logo {
     grid-row: 1;
     transform: translate(0%, 27%);
+    display: flex;
 }
 .Mobile_Graykea_logo {
     display: none;
@@ -721,6 +720,78 @@
     color: #9E221E;
 }
 
+.footer {
+    position:relative;
+    padding:0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    top:0px;
+    left:0;
+    background:#fff;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 0px;
+}
+
+.time_to_register_text {
+    grid-area: 2/ 10/ 2/ 10;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52.2609px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 495px;
+    transform: translate(0%);
+}
+
+.footer_reg_container {
+    grid-area: 3/ 10/ 3/ 10;
+    justify-self: center;
+    transform: translate(0%, 70%);
+}
+
+.foot_container {
+    background: #202020;
+    width: 100%;
+    grid-area: 8/ 1/ 17 / 21;
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(30, 1fr);
+}
+
+.idc_footer_logo {
+    grid-area: 8/ 3/ 8/ 3;
+}
+
+.sponsor_footer_logo {
+    grid-area: 8/ 6/ 8/ 6;
+}
+
+.discord_logo {
+    grid-area: 8/ 18/ 8/ 18;
+    transform: translate(0%, 30%);
+}
+
+.instagram_logo {
+    grid-area: 8/ 20/ 8/ 20;
+    transform: translate(0%, 30%);
+}
+
+.email_logo {
+    grid-area: 8/ 22/ 8/ 22;
+    transform: translate(0%, 32%);
+}
+
+.sponsor_footer_logo_mobile {
+    display: none;
+}
+
 
 
 @media screen and (max-width: 1500px) {
@@ -730,7 +801,7 @@
         margin:0;
         overflow-y: scroll;
         display:grid;
-        grid-template-rows: 1000px 800px 1000px 1000px 180px 2000px 1600px;
+        grid-template-rows: 1000px 800px 1000px 1000px 180px 2000px 1600px 700px;
         top:0;
         left:0;
         background:#fff;
@@ -1277,11 +1348,11 @@
         justify-content: center;
         color: #303030;
         width: 550px;
-        grid-area: 3/ 8/ 3/ 16;
+        grid-area: 3/ 10/ 3/ 10;
     }
     
     .IJet_brunswick_container {
-        grid-area: 6 / 8 / 6 / 12;
+        grid-area: 6 / 10 / 6 / 10;
         display: grid;
         grid-template-rows: 250px 230px 70px;
     }
@@ -1335,7 +1406,7 @@
     }
     
     .Graykea_container {
-        grid-area: 9 / 8 / 9 / 12;
+        grid-area: 9 / 10 / 9 / 10;
         display: grid;
         grid-template-rows: 250px 230px 70px;
     }
@@ -1386,8 +1457,75 @@
         color: #9E221E;
     }
     
+    .footer {
+        position:relative;
+        padding:0;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        top:0px;
+        left:0;
+        background:#fff;
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: repeat(16, 1fr);
+        grid-template-columns: repeat(20, 1fr);
+        grid-gap: 0px;
+    }
     
+    .time_to_register_text {
+        grid-area: 2/ 10/ 2/ 10;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52.2609px;
+        line-height: 63px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 495px;
+    }
     
+    .footer_reg_container {
+        grid-area: 3/ 10/ 3/ 10;
+        justify-self: center;
+        transform: translate(0%, 70%);
+    }
+    
+    .foot_container {
+        background: #202020;
+        width: 100%;
+        grid-area: 8/ 1/ 17 / 21;
+        display: grid;
+        grid-template-rows: repeat(16, 1fr);
+        grid-template-columns: repeat(30, 1fr);
+    }
+    
+    .idc_footer_logo {
+        grid-area: 8/ 5/ 8/ 5;
+    }
+    
+    .sponsor_footer_logo {
+        grid-area: 8/ 15/ 8/ 15;
+    }
+    
+    .discord_logo {
+        grid-area: 7/ 25/ 7/ 25;
+        transform: translate(0%, 30%);
+    }
+    
+    .instagram_logo {
+        grid-area: 8/ 25/ 8/ 25;
+        transform: translate(10%, 40%);
+    }
+    
+    .email_logo {
+        grid-area: 9/ 25/ 9/ 25;
+        transform: translate(0%, 30%);
+    }
+    .sponsor_footer_logo_mobile {
+        display: none;
+    }
     
 
     @media screen and (max-width: 960px) {
@@ -1397,7 +1535,7 @@
             margin:0;
             overflow-y: scroll;
             display:grid;
-            grid-template-rows: 1000px 700px 1000px 1150px 180px 2000px 1600px;
+            grid-template-rows: 1000px 700px 1000px 1150px 180px 2000px 1600px 700px;
             top:0;
             left:0;
             background:#fff;
@@ -1843,7 +1981,7 @@
         }
     
         .Day_1_title {
-            grid-area: 8/ 5/ 8/ 12;
+            grid-area: 8/ 5/ 8/ 5;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -1851,19 +1989,19 @@
             line-height: 36px;
             width: 286.27px;
             height: 9.93px;
-            transform: translate(-40px, -100%);
+            transform: translate(-30px, -100%);
         }
         
         .Day_1 {
-            grid-area: 8/ 5/ 8/ 12;
-            transform: translate(-40px, 25%);
+            grid-area: 8/ 5/ 8/ 5;
+            transform: translate(-30px, 25%);
         }
         .Day_1_logo {
-            grid-area: 1/ 5/ 3/ 12;
-            transform: translate(-40px);
+            grid-area: 1/ 5/ 3/ 5;
+            transform: translate(-30px);
         }
         .Day_2_title {
-            grid-area: 8/ 14/ 8/ 21;
+            grid-area: 8/ 14/ 8/ 14;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -1874,15 +2012,15 @@
             transform: translate(0%, -100%);
         }
         .Day_2 {
-            grid-area: 8/ 14/ 8/ 21;
+            grid-area: 8/ 14/ 8/ 14;
             transform: translate(0%, 25%);
         }
         .Day_2_logo {
-            grid-area: 1/ 14/ 3/ 17;
+            grid-area: 1/ 14/ 3/ 14;
         }
     
         .Day_3_title {
-            grid-area: 13/ 5/ 13/ 13;
+            grid-area: 13/ 5/ 13/ 5;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -1890,18 +2028,18 @@
             line-height: 36px;
             width: 286.27px;
             height: 9.93px;
-            transform: translate(-40px, 300%);
+            transform: translate(-30px, 300%);
         }
         .Day_3 {
-            grid-area: 16/ 5/ 16/ 13;
-            transform: translate(-40px, 15%);
+            grid-area: 16/ 5/ 16/ 5;
+            transform: translate(-30px, 15%);
         }
         .Day_3_logo {
-            grid-area: 12/ 5/ 12/ 13;
-            transform: translate(-40px);
+            grid-area: 12/ 5/ 12/ 5;
+            transform: translate(-30px);
         }
         .Day_4_title {
-            grid-area: 13/ 14/ 13/ 21;
+            grid-area: 13/ 14/ 13/ 14;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -1912,11 +2050,11 @@
             transform: translate(0%, 300%);
         }
         .Day_4 {
-            grid-area: 16/ 14/ 16/ 21;
+            grid-area: 16/ 14/ 16/ 14;
             transform: translate(0%, 15%);
         }
         .Day_4_logo {
-            grid-area: 12/ 14/ 12/ 21;
+            grid-area: 12/ 14/ 12/ 14;
         }
         
         .Discord_text {
@@ -1960,11 +2098,11 @@
             justify-content: center;
             color: #303030;
             width: 550px;
-            grid-area: 3/ 4/ 3/ 16;
+            grid-area: 3/ 10/ 3/ 10;
         }
         
         .IJet_brunswick_container {
-            grid-area: 6 / 4 / 6 / 12;
+            grid-area: 6 / 10 / 6 / 10;
             display: grid;
             grid-template-rows: 250px 230px 70px;
         }
@@ -2018,7 +2156,7 @@
         }
         
         .Graykea_container {
-            grid-area: 9 / 4 / 9 / 12;
+            grid-area: 9 / 10 / 9 / 10;
             display: grid;
             grid-template-rows: 250px 230px 70px;
         }
@@ -2068,6 +2206,76 @@
             background: #fff;
             color: #9E221E;
         }
+
+        .footer {
+            position:relative;
+            padding:0;
+            overflow-y:hidden;
+            overflow-x:hidden;
+            top:0px;
+            left:0;
+            background:#fff;
+            width: 100%;
+            height: 100%;
+            display:grid;
+            grid-template-rows: repeat(16, 1fr);
+            grid-template-columns: repeat(20, 1fr);
+            grid-gap: 0px;
+        }
+        
+        .time_to_register_text {
+            grid-area: 2/ 10/ 2/ 10;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52.2609px;
+            line-height: 63px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 495px;
+        }
+        
+        .footer_reg_container {
+            grid-area: 3/ 10/ 3/ 10;
+            justify-self: center;
+            transform: translate(0%, 70%);
+        }
+        
+        .foot_container {
+            background: #202020;
+            width: 100%;
+            grid-area: 8/ 1/ 17 / 21;
+            display: grid;
+            grid-template-rows: repeat(16, 1fr);
+            grid-template-columns: repeat(30, 1fr);
+        }
+        
+        .idc_footer_logo {
+            grid-area: 7/ 5/ 7/ 5;
+        }
+        
+        .sponsor_footer_logo {
+            grid-area: 8/ 5/ 8/ 5;
+        }
+        
+        .discord_logo {
+            grid-area: 7/ 25/ 7/ 25;
+            transform: translate(0%, 40%);
+        }
+        
+        .instagram_logo {
+            grid-area: 8/ 25/ 8/ 25;
+            transform: translate(10%, 10%);
+        }
+        
+        .email_logo {
+            grid-area: 9/ 25/ 9/ 25;
+            transform: translate(0%, -30%);
+        }
+        .sponsor_footer_logo_mobile {
+            display: none;
+        }
         
         @media screen and (max-width: 680px) {
             .Landingpage {
@@ -2076,7 +2284,7 @@
                 margin:0;
                 overflow-y: scroll;
                 display:grid;
-                grid-template-rows: 1000px 800px 1000px 1150px 180px 4000px 1600px;
+                grid-template-rows: 1000px 800px 1000px 1150px 180px 4000px 1600px 700px;
                 top:0;
                 left:0;
                 background:#fff;
@@ -2743,6 +2951,77 @@
                 color: #9E221E;
             }
 
+            .footer {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                top:0px;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(16, 1fr);
+                grid-template-columns: repeat(20, 1fr);
+                grid-gap: 0px;
+            }
+            
+            .time_to_register_text {
+                grid-area: 2/ 10/ 2/ 10;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 52.2609px;
+                line-height: 63px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 495px;
+            }
+            
+            .footer_reg_container {
+                grid-area: 3/ 10/ 3/ 10;
+                justify-self: center;
+                transform: translate(0%, 70%);
+            }
+            
+            .foot_container {
+                background: #202020;
+                width: 100%;
+                grid-area: 8/ 1/ 17 / 21;
+                display: grid;
+                grid-template-rows: repeat(16, 1fr);
+                grid-template-columns: repeat(30, 1fr);
+            }
+            
+            .idc_footer_logo {
+                grid-area: 7/ 5/ 7/ 5;
+            }
+            
+            .sponsor_footer_logo {
+                grid-area: 8/ 5/ 8/ 5;
+            }
+            
+            .discord_logo {
+                grid-area: 7/ 25/ 7/ 25;
+                transform: translate(0%, 40%);
+            }
+            
+            .instagram_logo {
+                grid-area: 8/ 25/ 8/ 25;
+                transform: translate(10%, 10%);
+            }
+            
+            .email_logo {
+                grid-area: 9/ 25/ 9/ 25;
+                transform: translate(0%, -30%);
+            }
+            .sponsor_footer_logo_mobile {
+                display: none;
+            }
+            
+
             @media screen and (max-width: 600px) {
                 .Landingpage {
                     position:fixed;
@@ -2750,7 +3029,7 @@
                     margin:0;
                     overflow-y: scroll;
                     display:grid;
-                    grid-template-rows: 1000px 840px 1000px 1150px 150px 4000px 1600px;
+                    grid-template-rows: 1000px 840px 1000px 1150px 150px 4000px 1600px 800px;
                     top:0;
                     left:0;
                     background:#fff;
@@ -3209,7 +3488,7 @@
                 transform: translate(calc(-380px + 48vw));
             }
             .Day_2_title {
-                grid-area: 8/ 8/ 8/ 13;
+                grid-area: 8/ 8/ 8/ 14;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3217,7 +3496,7 @@
                 line-height: 36px;
                 width: 300px;
                 height: 9.93px;
-                transform: translate(calc(-340px + 48vw), -100%);
+                transform: translate(calc(-320px + 48vw), -100%);
             }
             .Day_2 {
                 grid-area: 14/ 9/ 8/ 12;
@@ -3380,6 +3659,7 @@
             .Graykea_logo {
                 display: flex;
                 grid-row: 1;
+                transform: translate(25%, 40%);
             }
             .Mobile_Graykea_logo {
                 display: none;
@@ -3401,7 +3681,7 @@
             
             .Graykea_learn_more_btn {
                 grid-row: 3;
-                transform: translate(23%, 20%);
+                transform: translate(29%, 20%);
             }
             
             .Graykea_btn_wrapper {
@@ -3431,8 +3711,76 @@
                 color: #9E221E;
             }
 
+            .footer {
+                position:relative;
+                padding:0;
+                overflow-y:hidden;
+                overflow-x:hidden;
+                top:0px;
+                left:0;
+                background:#fff;
+                width: 100%;
+                height: 100%;
+                display:grid;
+                grid-template-rows: repeat(16, 1fr);
+                grid-template-columns: repeat(20, 1fr);
+                grid-gap: 0px;
+            }
             
-
+            .time_to_register_text {
+                grid-area: 2/ 10/ 2/ 10;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 52.2609px;
+                line-height: 63px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 495px;
+            }
+            
+            .footer_reg_container {
+                grid-area: 3/ 10/ 3/ 10;
+                justify-self: center;
+                transform: translate(0%, 70%);
+            }
+            
+            .foot_container {
+                background: #202020;
+                width: 100%;
+                grid-area: 8/ 1/ 17 / 21;
+                display: grid;
+                grid-template-rows: repeat(16, 1fr);
+                grid-template-columns: repeat(30, 1fr);
+            }
+            
+            .idc_footer_logo {
+                grid-area: 7/ 5/ 7/ 5;
+            }
+            
+            .sponsor_footer_logo {
+                display: flex;
+                grid-area: 8/ 5/ 8/ 5;
+            }
+            
+            .discord_logo {
+                grid-area: 10/ 5/ 10/ 5;
+                transform: translate(15%, 40%);
+            }
+            
+            .instagram_logo {
+                grid-area: 10/ 5/ 10/ 5;
+                transform: translate(40%, 38%);
+            }
+            
+            .email_logo {
+                grid-area: 10/ 5/ 10/ 5;
+                transform: translate(63%, 41%);
+            }
+            .sponsor_footer_logo_mobile {
+                display: none;
+            }
 
                 @media screen and (max-width: 500px) {
                     .Landingpage {
@@ -3441,7 +3789,7 @@
                         margin:0;
                         overflow-y: scroll;
                         display:grid;
-                        grid-template-rows: 900px 800px 1000px 1150px 150px 4000px 1600px;
+                        grid-template-rows: 900px 800px 1000px 1150px 150px 4000px 1600px 1000px;
                         top:0;
                         left:0;
                         background:#fff;
@@ -3911,7 +4259,7 @@
                         transform: translate(calc(-200px + 20vw));
                     }
                     .Day_2_title {
-                        grid-area: 8/ 8/ 8/ 13;
+                        grid-area: 8/ 9/ 8/ 14;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -3919,7 +4267,7 @@
                         line-height: 36px;
                         width: 300px;
                         height: 9.93px;
-                        transform: translate(calc(-200px + 20vw), -100%);
+                        transform: translate(calc(-190px + 20vw), -100%);
                     }
                     .Day_2 {
                         grid-area: 14/ 9/ 8/ 12;
@@ -3970,7 +4318,7 @@
                     }
                     
                     .Discord_text {
-                        grid-area: 20/ 7/ 20/ 14;
+                        grid-area: 20/ 8/ 20/ 14;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -3978,7 +4326,7 @@
                         line-height: 36px;
                         width: 300px;
                         text-align: center;
-                        transform: translate(calc(-185px + 20vw));
+                        transform: translate(calc(-240px + 36vw));
                         color: #317DEE;
                     }
                     .sixth_container {
@@ -4135,6 +4483,78 @@
                         transition: all 0.25s ease-out;
                         background: #fff;
                         color: #9E221E;
+                    }
+
+                    .footer {
+                        position:relative;
+                        padding:0;
+                        overflow-y:hidden;
+                        overflow-x:hidden;
+                        top:0px;
+                        left:0;
+                        background:#fff;
+                        width: 100%;
+                        height: 100%;
+                        display:grid;
+                        grid-template-rows: repeat(16, 1fr);
+                        grid-template-columns: repeat(20, 1fr);
+                        grid-gap: 0px;
+                    }
+                    
+                    .time_to_register_text {
+                        grid-area: 2/ 10/ 2/ 10;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 42.2609px;
+                        line-height: 63px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        width: 300px;
+                    }
+                    
+                    .footer_reg_container {
+                        grid-area: 3/ 10/ 3/ 10;
+                        justify-self: center;
+                        transform: translate(0%, 70%);
+                    }
+                    
+                    .foot_container {
+                        background: #202020;
+                        width: 100%;
+                        grid-area: 8/ 1/ 17 / 21;
+                        display: grid;
+                        grid-template-rows: repeat(16, 1fr);
+                        grid-template-columns: repeat(30, 1fr);
+                    }
+                    
+                    .idc_footer_logo {
+                        grid-area: 7/ 6/ 7/ 6;
+                    }
+                    
+                    .sponsor_footer_logo {
+                        display: none;
+                        grid-area: 8/ 6/ 8/ 6;
+                    }
+                    
+                    .discord_logo {
+                        grid-area: 10/ 6/ 10/ 6;
+                        transform: translate(3%, 40%);
+                    }
+                    
+                    .instagram_logo {
+                        grid-area: 10/ 6/ 10/ 6;
+                        transform: translate(32.5%, 38%);
+                    }
+                    
+                    .email_logo {
+                        grid-area: 10/ 6/ 10/ 6;
+                        transform: translate(58%, 41%);
+                    }
+                    .sponsor_footer_logo_mobile {
+                        display: flex;
+                        grid-area: 8/ 6/ 8/ 6;
                     }
                 }
             }
