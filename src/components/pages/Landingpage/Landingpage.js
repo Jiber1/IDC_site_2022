@@ -266,7 +266,7 @@ class Landingpage extends Component {
                         marine engines, active recreation, and activated workplace products.
                         </div>
                         <div className='IBJ_learn_more_btn'>
-                            <a className='IBJ_btn_wrapper' href="https://ijetlab.com/home">
+                            <a className='IBJ_btn_wrapper' href="https://ijetlab.com/home" onClick={()=> Event("IJETBRUNSWICK", "IJet Brunswick button clicked", "LANDING_PAGE")}>
                                 Learn More
                             </a>
                         </div>
@@ -284,7 +284,7 @@ class Landingpage extends Component {
                         through alumni crowdfunding.
                         </div>
                         <div className='Graykea_learn_more_btn'>
-                            <a className='Graykea_btn_wrapper' href="https://www.graykea.com/">
+                            <a className='Graykea_btn_wrapper' href="https://www.graykea.com/" onClick={()=> Event("GRAYKEA", "Graykea button clicked", "LANDING_PAGE")}>
                                 Learn More
                             </a>
                         </div>
@@ -312,13 +312,13 @@ class Landingpage extends Component {
                             <FooterSponsorMobile/>
                         </div>
 
-                        <a className='discord_logo' href="https://discord.gg/BKJYhuBtkc">
+                        <a className='discord_logo' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD", "Discord button clicked", "LANDING_PAGE")}>
                             <DiscordLogo/>
                         </a>
-                        <a className='instagram_logo' href="https://instagram.com/illinoisdesignchallenge">
+                        <a className='instagram_logo' href="https://instagram.com/illinoisdesignchallenge" onClick={()=> Event("INSTAGRAM", "Instagram button clicked", "LANDING_PAGE")}>
                             <InstagramLogo/>
                         </a>
-                        <a className='email_logo' href="mailto:illinoisdesignchallenge@gmail.com">
+                        <a className='email_logo' href="mailto:illinoisdesignchallenge@gmail.com" onClick={()=> Event("EMAIL", "Email button clicked", "LANDING_PAGE")}>
                             <EmailLogo/>
                         </a>
                     </div>
