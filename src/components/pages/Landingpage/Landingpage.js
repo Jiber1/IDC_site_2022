@@ -29,6 +29,8 @@ import { ReactComponent as GraykeaLogo } from './GraykeaLogo.svg';
 import { ReactComponent as MobileIJBLogo } from './Smallsvgs/MobileIJBLogo.svg';
 import { ReactComponent as MobileGraykeaLogo } from './Smallsvgs/MobileGraykeaLogo.svg';
 
+import { FAQ } from './FAQ';
+
 import { ReactComponent as FooterLogo } from './IDCLogofooter.svg';
 import { ReactComponent as FooterSponsor } from './Footer_logo_collection.svg';
 import { ReactComponent as DiscordLogo } from './discord.svg';
@@ -248,7 +250,7 @@ class Landingpage extends Component {
                     <div className='Discord_text'>
                         Discord Moderation will take place from 12:00 PM to 12:00 AM Everyday
                     </div>
-                    <a className='join_discord' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD_EVENTS", "Discord button clicked at event container", "LANDING_PAGE")}>
+                    <a className='join_discord' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD_EVENTS", "Discord button clicked at event container", "EVENT_SCHEDULE")}>
                         Click here to join our Discord
                     </a>
                 </div>
@@ -269,7 +271,7 @@ class Landingpage extends Component {
                         marine engines, active recreation, and activated workplace products.
                         </div>
                         <div className='IBJ_learn_more_btn'>
-                            <a className='IBJ_btn_wrapper' href="https://ijetlab.com/home" onClick={()=> Event("IJETBRUNSWICK", "IJet Brunswick button clicked", "LANDING_PAGE")}>
+                            <a className='IBJ_btn_wrapper' href="https://ijetlab.com/home" onClick={()=> Event("IJETBRUNSWICK", "IJet Brunswick button clicked", "IDJ")}>
                                 Learn More
                             </a>
                         </div>
@@ -287,18 +289,35 @@ class Landingpage extends Component {
                         through alumni crowdfunding.
                         </div>
                         <div className='Graykea_learn_more_btn'>
-                            <a className='Graykea_btn_wrapper' href="https://www.graykea.com/" onClick={()=> Event("GRAYKEA", "Graykea button clicked", "LANDING_PAGE")}>
+                            <a className='Graykea_btn_wrapper' href="https://www.graykea.com/" onClick={()=> Event("GRAYKEA", "Graykea button clicked", "GRAYKEA")}>
                                 Learn More
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className='faq_container'>
+                        <div className='faq_title'>Frequently Asked Questions</div>
+                        <div className='q_and_a_container'>
+                        <ul className='faq_block'>
+                        {FAQ.map((item, index) => {
+                            return (
+                                <li key={index} className='faqlist'>
+                                    <div className={item.tag}>
+                                        <div className='question'>{item.question}</div> <br/>
+                                        <div className='answer'>{item.answer}</div>
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                        </div>
                 </div>
                 <div className='footer'>
                     <div className='time_to_register_text'>
                         It's time to register!
                     </div>
                     <div className='footer_reg_container'>
-                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER_FOOTER", "Register button clicked", "LANDING_PAGE")}>
+                    <a className='btn_register' href="https://forms.gle/54DJ6jxApRHSG7NYA" style={{ textDecoration: 'none' }} onClick={()=> Event("REGISTER_FOOTER", "Register button clicked", "TOP_FOOTER")}>
                         <div style={{margin: '-10px 0px'}}>
                             Register
                         </div>
@@ -315,13 +334,13 @@ class Landingpage extends Component {
                             <FooterSponsorMobile/>
                         </div>
 
-                        <a className='discord_logo' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD", "Discord button clicked", "LANDING_PAGE")}>
+                        <a className='discord_logo' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD", "Discord button clicked", "DISCORD_FOOTER")}>
                             <DiscordLogo/>
                         </a>
-                        <a className='instagram_logo' href="https://instagram.com/illinoisdesignchallenge" onClick={()=> Event("INSTAGRAM", "Instagram button clicked", "LANDING_PAGE")}>
+                        <a className='instagram_logo' href="https://instagram.com/illinoisdesignchallenge" onClick={()=> Event("INSTAGRAM", "Instagram button clicked", "INSTA_FOOTER")}>
                             <InstagramLogo/>
                         </a>
-                        <a className='email_logo' href="mailto:illinoisdesignchallenge@gmail.com" onClick={()=> Event("EMAIL", "Email button clicked", "LANDING_PAGE")}>
+                        <a className='email_logo' href="mailto:illinoisdesignchallenge@gmail.com" onClick={()=> Event("EMAIL", "Email button clicked", "EMAIL_FOOTER")}>
                             <EmailLogo/>
                         </a>
                     </div>

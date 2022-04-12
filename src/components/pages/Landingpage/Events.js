@@ -26,7 +26,7 @@ export const Events_Two = [
     {
         title: 'IDC Workshop Session',
         date: 'April 15, 2022 | 5:00 PM CT',
-        place: 'In-persont Event',
+        place: 'In-person Event',
         description: 'TBD',
         tag: 'day2'
     },
