@@ -6,7 +6,7 @@
     margin:0;
     overflow-y: scroll;
     display:grid;
-    grid-template-rows: 1000px 950px 1000px 900px 180px 1200px 1000px 700px;
+    grid-template-rows: 1000px 950px 1000px 900px 180px 1400px 1000px 700px;
     top:0;
     left:0;
     background:#fff;
@@ -570,6 +570,19 @@
     line-height: 36px;
     text-align: center;
     color: #317DEE;
+    transform: translate(-2%);
+}
+
+.join_discord {
+    grid-area: 15/ 4/ 15/ 20;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.7px;
+    line-height: 36px;
+    text-align: center;
+    color: #317DEE;
+    transform: translate(-2%);
 }
 
 .sixth_container {
@@ -601,7 +614,7 @@
     justify-content: center;
     color: #303030;
     width: 550px;
-
+    transform: translate(-5%);
     grid-area: 3/ 9/ 3/ 16;
 }
 
@@ -664,7 +677,7 @@
 }
 
 .Graykea_container {
-    grid-area: 6 / 14 / 6 / 18;
+    grid-area: 6 / 13 / 6 / 18;
     display: grid;
     grid-template-rows: 250px 230px 70px;
 }
@@ -801,7 +814,7 @@
         margin:0;
         overflow-y: scroll;
         display:grid;
-        grid-template-rows: 1000px 800px 1000px 1000px 180px 2000px 1600px 700px;
+        grid-template-rows: 1000px 800px 1000px 900px 180px 2000px 1600px 700px;
         top:0;
         left:0;
         background:#fff;
@@ -1319,6 +1332,19 @@
     
         color: #317DEE;
     }
+    
+    .join_discord {
+        grid-area: 20/ 4/ 20/ 20;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.7px;
+        line-height: 36px;
+        text-align: center;
+        color: #317DEE;
+        transform: translate(-2%);
+    }
+
     .sixth_container {
         position:relative;
         padding:0;
@@ -2068,6 +2094,17 @@
         
             color: #317DEE;
         }
+        .join_discord {
+            grid-area: 20/ 4/ 20/ 20;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 29.7px;
+            line-height: 36px;
+            text-align: center;
+            color: #317DEE;
+            transform: translate(-3%, -2%);
+        }
 
         .sixth_container {
             position:relative;
@@ -2719,11 +2756,11 @@
                 justify-content: center;
                 color: #303030;
                 width: 300px;
-                transform: translate(calc(-140px + 48vw));
+                transform: translate(calc(-150px + 48vw));
             }
         
             .Day_1_title {
-                grid-area: 2/ 9/ 8/ 12;
+                grid-area: 2/ 10/ 8/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2731,19 +2768,19 @@
                 line-height: 36px;
                 width: 286.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), 600%);
+                transform: translate(0%, 600%);
             }
             
             .Day_1 {
-                grid-area: 2/ 9/ 8/ 12;
-                transform: translate(calc(-380px + 48vw), 25%);
+                grid-area: 2/ 10/ 8/ 10;
+                transform: translate(0%, 25%);
             }
             .Day_1_logo {
-                grid-area: 1/ 9/ 3/ 12;
-                transform: translate(calc(-380px + 48vw));
+                grid-area: 1/ 10/ 3/ 10;
+                transform: translate(0%);
             }
             .Day_2_title {
-                grid-area: 8/ 8/ 8/ 13;
+                grid-area: 8/ 10/ 8/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2751,19 +2788,19 @@
                 line-height: 36px;
                 width: 300px;
                 height: 9.93px;
-                transform: translate(calc(-340px + 48vw), -100%);
+                transform: translate(0%, -100%);
             }
             .Day_2 {
-                grid-area: 14/ 9/ 8/ 12;
-                transform: translate(calc(-380px + 48vw), 18%);
+                grid-area: 14/ 10/ 8/ 10;
+                transform: translate(0%, 18%);
             }
             .Day_2_logo {
-                grid-area: 7/ 9/ 7/ 17;
-                transform: translate(calc(-380px + 48vw), -35%);
+                grid-area: 7/ 10/ 7/ 10;
+                transform: translate(0%, -35%);
             }
         
             .Day_3_title {
-                grid-area: 15/ 9/ 15/ 17;
+                grid-area: 15/ 10/ 15/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2771,18 +2808,18 @@
                 line-height: 36px;
                 width: 300.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), -100%);
+                transform: translate(0%, -100%);
             }
             .Day_3 {
-                grid-area: 16/ 9/ 16/ 17;
-                transform: translate(calc(-380px + 48vw), 15%);
+                grid-area: 16/ 10/ 16/ 10;
+                transform: translate(0%, 15%);
             }
             .Day_3_logo {
-                grid-area: 13/ 9/ 13/ 17;
-                transform: translate(calc(-380px + 48vw), 45%);
+                grid-area: 13/ 10/ 13/ 10;
+                transform: translate(0%, 45%);
             }
             .Day_4_title {
-                grid-area: 18/ 9/ 18/ 17;
+                grid-area: 18/ 10/ 18/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2790,19 +2827,18 @@
                 line-height: 36px;
                 width: 286.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), 300%);
+                transform: translate(0%, 300%);
             }
             .Day_4 {
-                grid-area: 19/ 9/ 19/ 17;
-                transform: translate(calc(-380px + 48vw), 8%);
+                grid-area: 19/ 10/ 19/ 10;
+                transform: translate(0%, 8%);
             }
             .Day_4_logo {
-                transform: translate(calc(-380px + 48vw));
-                grid-area: 17/ 9/ 17/ 17;
+                grid-area: 17/ 10/ 17/ 10;
             }
             
             .Discord_text {
-                grid-area: 20/ 7/ 20/ 14;
+                grid-area: 20/ 10/ 20/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2810,8 +2846,19 @@
                 line-height: 36px;
                 width: 300px;
                 text-align: center;
-                transform: translate(calc(-350px + 48vw));
+                transform: translate(-10%);
                 color: #317DEE;
+            }
+            .join_discord {
+                grid-area: 20/ 4/ 20/ 20;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18.7px;
+                line-height: 36px;
+                text-align: center;
+                color: #317DEE;
+                transform: translate(-10%, 75%);
             }
             .sixth_container {
                 position:relative;
@@ -3468,7 +3515,7 @@
             }
         
             .Day_1_title {
-                grid-area: 2/ 9/ 8/ 12;
+                grid-area: 2/ 10/ 8/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3476,19 +3523,19 @@
                 line-height: 36px;
                 width: 286.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), 600%);
+                transform: translate(0%, 600%);
             }
             
             .Day_1 {
-                grid-area: 2/ 9/ 8/ 12;
-                transform: translate(calc(-380px + 48vw), 25%);
+                grid-area: 2/ 10/ 8/ 10;
+                transform: translate(0%, 25%);
             }
             .Day_1_logo {
-                grid-area: 1/ 9/ 3/ 12;
-                transform: translate(calc(-380px + 48vw));
+                grid-area: 1/ 10/ 3/ 10;
+                transform: translate(0%);
             }
             .Day_2_title {
-                grid-area: 8/ 8/ 8/ 14;
+                grid-area: 8/ 10/ 8/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3496,19 +3543,19 @@
                 line-height: 36px;
                 width: 300px;
                 height: 9.93px;
-                transform: translate(calc(-320px + 48vw), -100%);
+                transform: translate(0%, -100%);
             }
             .Day_2 {
-                grid-area: 14/ 9/ 8/ 12;
-                transform: translate(calc(-380px + 48vw), 18%);
+                grid-area: 14/ 10/ 8/ 10;
+                transform: translate(0%, 18%);
             }
             .Day_2_logo {
-                grid-area: 7/ 9/ 7/ 17;
-                transform: translate(calc(-380px + 48vw), -35%);
+                grid-area: 7/ 10/ 7/ 10;
+                transform: translate(0%, -35%);
             }
         
             .Day_3_title {
-                grid-area: 15/ 9/ 15/ 17;
+                grid-area: 15/ 10/ 15/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3516,18 +3563,18 @@
                 line-height: 36px;
                 width: 300.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), -100%);
+                transform: translate(0%, -100%);
             }
             .Day_3 {
-                grid-area: 16/ 9/ 16/ 17;
-                transform: translate(calc(-380px + 48vw), 15%);
+                grid-area: 16/ 10/ 16/ 10;
+                transform: translate(0%, 15%);
             }
             .Day_3_logo {
-                grid-area: 13/ 9/ 13/ 17;
-                transform: translate(calc(-380px + 48vw), 45%);
+                grid-area: 13/ 10/ 13/ 10;
+                transform: translate(0%, 45%);
             }
             .Day_4_title {
-                grid-area: 18/ 9/ 18/ 17;
+                grid-area: 18/ 10/ 18/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3535,19 +3582,18 @@
                 line-height: 36px;
                 width: 286.27px;
                 height: 9.93px;
-                transform: translate(calc(-380px + 48vw), 300%);
+                transform: translate(0%, 300%);
             }
             .Day_4 {
-                grid-area: 19/ 9/ 19/ 17;
-                transform: translate(calc(-380px + 48vw), 8%);
+                grid-area: 19/ 10/ 19/ 10;
+                transform: translate(0%, 8%);
             }
             .Day_4_logo {
-                transform: translate(calc(-380px + 48vw));
-                grid-area: 17/ 9/ 17/ 17;
+                grid-area: 17/ 10/ 17/ 10;
             }
             
             .Discord_text {
-                grid-area: 20/ 7/ 20/ 14;
+                grid-area: 20/ 10/ 20/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3555,8 +3601,20 @@
                 line-height: 36px;
                 width: 300px;
                 text-align: center;
-                transform: translate(calc(-350px + 48vw));
+                transform: translate(-10%);
                 color: #317DEE;
+            }
+
+            .join_discord {
+                grid-area: 20/ 4/ 20/ 20;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18.7px;
+                line-height: 36px;
+                text-align: center;
+                color: #317DEE;
+                transform: translate(-10%, 75%);
             }
 
             .sixth_container {
@@ -4239,7 +4297,7 @@
                     }
                 
                     .Day_1_title {
-                        grid-area: 2/ 9/ 8/ 12;
+                        grid-area: 2/ 11/ 8/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4247,19 +4305,19 @@
                         line-height: 36px;
                         width: 286.27px;
                         height: 9.93px;
-                        transform: translate(calc(-200px + 20vw), 600%);
+                        transform: translate(calc(-250px + 48vw), 600%);
                     }
                     
                     .Day_1 {
-                        grid-area: 2/ 9/ 8/ 12;
-                        transform: translate(calc(-190px + 20vw), 25%);
+                        grid-area: 2/ 11/ 8/ 11;
+                        transform: translate(calc(-250px + 48vw), 25%);
                     }
                     .Day_1_logo {
-                        grid-area: 1/ 9/ 3/ 12;
-                        transform: translate(calc(-200px + 20vw));
+                        grid-area: 1/ 11/ 3/ 11;
+                        transform: translate(calc(-250px + 48vw));
                     }
                     .Day_2_title {
-                        grid-area: 8/ 9/ 8/ 14;
+                        grid-area: 8/ 11/ 8/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4267,19 +4325,19 @@
                         line-height: 36px;
                         width: 300px;
                         height: 9.93px;
-                        transform: translate(calc(-190px + 20vw), -100%);
+                        transform: translate(calc(-250px + 48vw), -100%);
                     }
                     .Day_2 {
-                        grid-area: 14/ 9/ 8/ 12;
-                        transform: translate(calc(-190px + 20vw), 18%);
+                        grid-area: 14/ 11/ 8/ 11;
+                        transform: translate(calc(-250px + 48vw), 18%);
                     }
                     .Day_2_logo {
-                        grid-area: 7/ 9/ 7/ 17;
-                        transform: translate(calc(-200px + 20vw), -35%);
+                        grid-area: 7/ 11/ 7/ 11;
+                        transform: translate(calc(-250px + 48vw), -35%);
                     }
                 
                     .Day_3_title {
-                        grid-area: 15/ 9/ 15/ 17;
+                        grid-area: 15/ 11/ 15/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4287,18 +4345,18 @@
                         line-height: 36px;
                         width: 300.27px;
                         height: 9.93px;
-                        transform: translate(calc(-200px + 20vw), -100%);
+                        transform: translate(calc(-250px + 48vw), -100%);
                     }
                     .Day_3 {
-                        grid-area: 16/ 9/ 16/ 17;
-                        transform: translate(calc(-190px + 20vw), 15%);
+                        grid-area: 16/ 11/ 16/ 11;
+                        transform: translate(calc(-250px + 48vw), 15%);
                     }
                     .Day_3_logo {
-                        grid-area: 13/ 9/ 13/ 17;
-                        transform: translate(calc(-200px + 20vw), 45%);
+                        grid-area: 13/ 11/ 13/ 11;
+                        transform: translate(calc(-250px + 48vw), 45%);
                     }
                     .Day_4_title {
-                        grid-area: 18/ 9/ 18/ 17;
+                        grid-area: 18/ 11/ 18/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4306,19 +4364,19 @@
                         line-height: 36px;
                         width: 286.27px;
                         height: 9.93px;
-                        transform: translate(calc(-200px + 20vw), 300%);
+                        transform: translate(calc(-250px + 48vw), 300%);
                     }
                     .Day_4 {
-                        grid-area: 19/ 9/ 19/ 17;
-                        transform: translate(calc(-190px + 20vw), 8%);
+                        grid-area: 19/ 11/ 19/ 11;
+                        transform: translate(calc(-250px + 48vw), 8%);
                     }
                     .Day_4_logo {
-                        transform: translate(calc(-200px + 20vw));
-                        grid-area: 17/ 9/ 17/ 17;
+                        transform: translate(calc(-250px + 48vw), -3%);
+                        grid-area: 17/ 11/ 17/ 11;
                     }
                     
                     .Discord_text {
-                        grid-area: 20/ 8/ 20/ 14;
+                        grid-area: 20/ 11/ 20/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4326,15 +4384,27 @@
                         line-height: 36px;
                         width: 300px;
                         text-align: center;
-                        transform: translate(calc(-240px + 36vw));
                         color: #317DEE;
+                        transform: translate(calc(-270px + 48vw), 0%);
+                    }
+
+                    .join_discord {
+                        grid-area: 20/ 4/ 20/ 20;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18.7px;
+                        line-height: 36px;
+                        text-align: center;
+                        color: #317DEE;
+                        transform: translate(calc(-270px + 48vw), 75%);
                     }
                     .sixth_container {
                         position:relative;
                         padding:0;
                         overflow-y:hidden;
                         overflow-x:hidden;
-                        top:100px;
+                        top:50px;
                         left:0;
                         background:#fff;
                         width: 100%;

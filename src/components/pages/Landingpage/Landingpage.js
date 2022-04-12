@@ -248,6 +248,9 @@ class Landingpage extends Component {
                     <div className='Discord_text'>
                         Discord Moderation will take place from 12:00 PM to 12:00 AM Everyday
                     </div>
+                    <a className='join_discord' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD_EVENTS", "Discord button clicked at event container", "LANDING_PAGE")}>
+                        Click here to join our Discord
+                    </a>
                 </div>
                 <div className='sixth_container'>
                     <large className='Sponsor_Companies'>
