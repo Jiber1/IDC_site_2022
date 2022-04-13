@@ -6,7 +6,7 @@
     margin:0;
     overflow-y: scroll;
     display:grid;
-    grid-template-rows: 1000px 950px 1000px 900px 180px 1200px 1000px 1800px 700px;
+    grid-template-rows: 1000px 950px 1000px 900px 100px 1500px 1000px 1800px 700px;
     top:0;
     left:0;
     background:#fff;
@@ -454,7 +454,7 @@
     justify-content: center;
     color: #303030;
     width: 400px;
-    transform: translate(calc(-180px + 48vw), 100px);
+    transform: translate(calc(-180px + 48vw), 0px);
 }
 
 .daylist {
@@ -875,7 +875,7 @@
         margin:0;
         overflow-y: scroll;
         display:grid;
-        grid-template-rows: 1000px 800px 1000px 900px 180px 2000px 1600px 1800px 700px;
+        grid-template-rows: 1000px 800px 1000px 900px 100px 2600px 1600px 1800px 700px;
         top:0;
         left:0;
         background:#fff;
@@ -1304,11 +1304,11 @@
         justify-content: center;
         color: #303030;
         width: 450px;
-        transform: translate(calc(-180px + 48vw));
+        transform: translate(calc(-180px + 48vw), -100px);
     }
 
     .Day_1_title {
-        grid-area: 8/ 6/ 8/ 12;
+        grid-area: 7/ 6/ 7/ 12;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -1316,18 +1316,18 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, -100%);
+        transform: translate(0%, -400%);
     }
     
     .Day_1 {
         grid-area: 8/ 6/ 8/ 12;
-        transform: translate(0%, 25%);
+        transform: translate(0%, 15%);
     }
     .Day_1_logo {
         grid-area: 1/ 6/ 3/ 12;
     }
     .Day_2_title {
-        grid-area: 8/ 14/ 8/ 21;
+        grid-area: 7/ 14/ 7/ 21;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -1335,11 +1335,11 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, -100%);
+        transform: translate(0%, -400%);
     }
     .Day_2 {
         grid-area: 8/ 14/ 8/ 21;
-        transform: translate(0%, 25%);
+        transform: translate(0%, 15%);
     }
     .Day_2_logo {
         grid-area: 1/ 14/ 3/ 17;
@@ -1685,7 +1685,7 @@
             margin:0;
             overflow-y: scroll;
             display:grid;
-            grid-template-rows: 1000px 700px 1000px 1150px 180px 2000px 1600px 2300px 700px;
+            grid-template-rows: 1000px 700px 1000px 1150px 180px 2600px 1600px 2300px 700px;
             top:0;
             left:0;
             background:#fff;
@@ -2131,7 +2131,7 @@
         }
     
         .Day_1_title {
-            grid-area: 8/ 5/ 8/ 5;
+            grid-area: 7/ 5/ 7/ 5;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -2144,14 +2144,14 @@
         
         .Day_1 {
             grid-area: 8/ 5/ 8/ 5;
-            transform: translate(-30px, 25%);
+            transform: translate(-30px, 15%);
         }
         .Day_1_logo {
             grid-area: 1/ 5/ 3/ 5;
             transform: translate(-30px);
         }
         .Day_2_title {
-            grid-area: 8/ 14/ 8/ 14;
+            grid-area: 7/ 14/ 7/ 14;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -2163,7 +2163,7 @@
         }
         .Day_2 {
             grid-area: 8/ 14/ 8/ 14;
-            transform: translate(0%, 25%);
+            transform: translate(0%, 15%);
         }
         .Day_2_logo {
             grid-area: 1/ 14/ 3/ 14;
@@ -2967,7 +2967,7 @@
                 transform: translate(0%);
             }
             .Day_2_title {
-                grid-area: 8/ 10/ 8/ 10;
+                grid-area: 6/ 10/ 6/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -2978,11 +2978,11 @@
                 transform: translate(0%, -100%);
             }
             .Day_2 {
-                grid-area: 14/ 10/ 8/ 10;
-                transform: translate(0%, 18%);
+                grid-area: 10/ 10/ 8/ 10;
+                transform: translate(0%, -28%);
             }
             .Day_2_logo {
-                grid-area: 7/ 10/ 7/ 10;
+                grid-area: 5/ 10/ 5/ 10;
                 transform: translate(0%, -35%);
             }
         
@@ -3786,7 +3786,7 @@
                 transform: translate(0%);
             }
             .Day_2_title {
-                grid-area: 8/ 10/ 8/ 10;
+                grid-area: 6/ 10/ 6/ 10;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -3797,11 +3797,11 @@
                 transform: translate(0%, -100%);
             }
             .Day_2 {
-                grid-area: 14/ 10/ 8/ 10;
-                transform: translate(0%, 18%);
+                grid-area: 10/ 10/ 8/ 10;
+                transform: translate(0%, -28%);
             }
             .Day_2_logo {
-                grid-area: 7/ 10/ 7/ 10;
+                grid-area: 5/ 10/ 5/ 10;
                 transform: translate(0%, -35%);
             }
         
@@ -4630,7 +4630,7 @@
                         transform: translate(calc(-250px + 48vw));
                     }
                     .Day_2_title {
-                        grid-area: 8/ 11/ 8/ 11;
+                        grid-area: 6/ 11/ 6/ 11;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
@@ -4641,11 +4641,11 @@
                         transform: translate(calc(-250px + 48vw), -100%);
                     }
                     .Day_2 {
-                        grid-area: 14/ 11/ 8/ 11;
-                        transform: translate(calc(-250px + 48vw), 18%);
+                        grid-area: 10/ 11/ 8/ 11;
+                        transform: translate(calc(-250px + 48vw), -28%);
                     }
                     .Day_2_logo {
-                        grid-area: 7/ 11/ 7/ 11;
+                        grid-area: 5/ 11/ 5/ 11;
                         transform: translate(calc(-250px + 48vw), -35%);
                     }
                 

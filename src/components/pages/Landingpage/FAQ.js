@@ -20,7 +20,7 @@ export const FAQ = [
         tag:"freq"
     },
     {
-        question: 'Q: How will be updated about the event details?',
+        question: 'Q: How will we be updated about the event details?',
         answer: 'Join the Discord! https://discord.gg/xPtMAYH6',
         tag:"freq"
     },
