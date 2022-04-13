@@ -12,29 +12,29 @@ export const Events_Two = [
     {
         title: 'Workshops & Speakers',
         date: 'April 15, 2022 | 2:00 PM CT',
-        place: 'SCD Room 1002',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Room 1002',
         tag: 'day2'
     },
     {
         title: 'Workshops & Speakers',
         date: 'April 15, 2022 | 3:00 PM CT',
-        place: 'SCD Room 1002',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Room 1002',
         tag: 'day2'
     },
     {
         title: 'Design Ideation Workshop',
         date: 'April 15, 2022 | 4:00 PM CT',
-        place: 'SCD Room 1000 & 1002',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Room 1000 & 1002',
         tag: 'day2'
     },
     {
         title: 'Workshops & Speakers',
         date: 'April 15, 2022 | 5:00 PM CT',
-        place: 'SCD Room 1000 & 1002',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Room 1000 & 1002',
         tag: 'day2'
     },
     {
@@ -57,29 +57,29 @@ export const Events_Three = [
     {
         title: 'Keynote Presentation',
         date: 'April 16, 2022 | 1:00 PM CT',
-        place: 'SCD Sunset Studio Room 1050',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Sunset Studio Room 1050',
         tag: 'day3'
     },
     {
         title: 'Workshops & Speakers',
         date: 'April 16, 2022 | 2:00 PM CT',
         place: 'Online Event',
-        description: '',
+        description: 'TBD',
         tag: 'day3'
     },
     {
         title: 'Workshops & Speakers',
         date: 'April 16, 2022 | 3:00 PM CT',
         place: 'Online Event',
-        description: '',
+        description: 'TBD',
         tag: 'day3'
     },
     {
         title: 'Workshops & Speakers',
         date: 'April 16, 2022 | 4:00 PM CT',
         place: 'Online Event',
-        description: '',
+        description: 'TBD',
         tag: 'day3'
     }
 ]
@@ -95,8 +95,8 @@ export const Events_Four = [
     {
         title: 'Workshops & Speakers',
         date: 'April 17, 2022 | 11:00 AM CT',
-        place: 'SCD Room 1002',
-        description: '',
+        place: 'Siebel Center for Design',
+        description: 'Room 1002',
         tag: 'day4'
     },
     {
