@@ -18,6 +18,13 @@ export const Events_One = [
 
 export const Events_Two = [
     {
+        title: 'Graykea Sponsor Talk',
+        date: 'April 15, 2022 | 2:00 PM CT',
+        place: 'SCD Room 1002',
+        description: 'by Manav Modi',
+        tag: 'day2'
+    },
+    {
         title: 'In-Person Project Help',
         date: 'April 15, 2022 | 3:00 PM CT',
         place: 'SCD Room 1002',
@@ -46,7 +53,7 @@ export const Events_Two = [
         tag: 'day2'
     },
     {
-        title: 'Advanced CAD',
+        title: 'Advanced CAD Workshop',
         date: 'April 15, 2022 | 7:00 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'By David Parker (iRobotics)',

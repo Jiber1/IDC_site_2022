@@ -6,7 +6,7 @@
     margin:0;
     overflow-y: scroll;
     display:grid;
-    grid-template-rows: 1000px 950px 1000px 900px 100px 1500px 1000px 1800px 700px;
+    grid-template-rows: 1000px 950px 1000px 900px 100px 1630px 1000px 1800px 700px;
     top:0;
     left:0;
     background:#fff;
@@ -875,7 +875,7 @@
         margin:0;
         overflow-y: scroll;
         display:grid;
-        grid-template-rows: 1000px 800px 1000px 900px 100px 2600px 1600px 1800px 700px;
+        grid-template-rows: 1000px 800px 1000px 900px 100px 2800px 1600px 1800px 700px;
         top:0;
         left:0;
         background:#fff;
@@ -1316,7 +1316,7 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, -400%);
+        transform: translate(0%, 0%);
     }
     
     .Day_1 {
@@ -1335,7 +1335,7 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, -400%);
+        transform: translate(0%, 0%);
     }
     .Day_2 {
         grid-area: 8/ 14/ 8/ 21;
@@ -1354,7 +1354,7 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, 300%);
+        transform: translate(0%, 400%);
     }
     .Day_3 {
         grid-area: 16/ 6/ 16/ 13;
@@ -1372,7 +1372,7 @@
         line-height: 36px;
         width: 286.27px;
         height: 9.93px;
-        transform: translate(0%, 300%);
+        transform: translate(0%, 400%);
     }
     .Day_4 {
         grid-area: 16/ 14/ 16/ 21;
@@ -1685,7 +1685,7 @@
             margin:0;
             overflow-y: scroll;
             display:grid;
-            grid-template-rows: 1000px 700px 1000px 1150px 180px 2600px 1600px 2300px 700px;
+            grid-template-rows: 1000px 700px 1000px 1150px 180px 2800px 1600px 2300px 700px;
             top:0;
             left:0;
             background:#fff;
@@ -2131,7 +2131,7 @@
         }
     
         .Day_1_title {
-            grid-area: 7/ 5/ 7/ 5;
+            grid-area: 8/ 5/ 8/ 5;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -2151,7 +2151,7 @@
             transform: translate(-30px);
         }
         .Day_2_title {
-            grid-area: 7/ 14/ 7/ 14;
+            grid-area: 8/ 14/ 8/ 14;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -2508,7 +2508,7 @@
                 margin:0;
                 overflow-y: scroll;
                 display:grid;
-                grid-template-rows: 1000px 800px 1000px 1150px 180px 4200px 1600px 2600px 700px;
+                grid-template-rows: 1000px 800px 1000px 1150px 180px 4400px 1600px 2600px 700px;
                 top:0;
                 left:0;
                 background:#fff;
@@ -2975,7 +2975,7 @@
                 line-height: 36px;
                 width: 300px;
                 height: 9.93px;
-                transform: translate(0%, -100%);
+                transform: translate(0%, 400%);
             }
             .Day_2 {
                 grid-area: 10/ 10/ 8/ 10;
@@ -2983,7 +2983,7 @@
             }
             .Day_2_logo {
                 grid-area: 5/ 10/ 5/ 10;
-                transform: translate(0%, -35%);
+                transform: translate(0%, 5%);
             }
         
             .Day_3_title {
@@ -3327,7 +3327,7 @@
                     margin:0;
                     overflow-y: scroll;
                     display:grid;
-                    grid-template-rows: 1000px 840px 1000px 1150px 150px 4200px 1600px 3000px 800px;
+                    grid-template-rows: 1000px 840px 1000px 1150px 150px 4400px 1600px 3000px 800px;
                     top:0;
                     left:0;
                     background:#fff;
@@ -3794,7 +3794,7 @@
                 line-height: 36px;
                 width: 300px;
                 height: 9.93px;
-                transform: translate(0%, -100%);
+                transform: translate(0%, 400%);
             }
             .Day_2 {
                 grid-area: 10/ 10/ 8/ 10;
@@ -3802,7 +3802,7 @@
             }
             .Day_2_logo {
                 grid-area: 5/ 10/ 5/ 10;
-                transform: translate(0%, -35%);
+                transform: translate(0%, 5%);
             }
         
             .Day_3_title {
@@ -4160,7 +4160,7 @@
                         margin:0;
                         overflow-y: scroll;
                         display:grid;
-                        grid-template-rows: 900px 800px 1000px 1150px 150px 4200px 1600px 3330px 1000px;
+                        grid-template-rows: 900px 800px 1000px 1150px 150px 4400px 1600px 3330px 1000px;
                         top:0;
                         left:0;
                         background:#fff;
@@ -4658,7 +4658,7 @@
                         line-height: 36px;
                         width: 300.27px;
                         height: 9.93px;
-                        transform: translate(calc(-250px + 48vw), -100%);
+                        transform: translate(calc(-250px + 48vw), -00%);
                     }
                     .Day_3 {
                         grid-area: 16/ 11/ 16/ 11;
@@ -4666,7 +4666,7 @@
                     }
                     .Day_3_logo {
                         grid-area: 13/ 11/ 13/ 11;
-                        transform: translate(calc(-250px + 48vw), 45%);
+                        transform: translate(calc(-250px + 48vw), 65%);
                     }
                     .Day_4_title {
                         grid-area: 18/ 11/ 18/ 11;
