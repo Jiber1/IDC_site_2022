@@ -191,7 +191,7 @@ class Landingpage extends Component {
                     </ul>
                     </div>
                     <div className='Day_2_logo'><EventD2/></div>
-                    <div className='Day_2_title'> CAD Basics and Social Events </div>
+                    <div className='Day_2_title'> CAD Basics and Design Ideation </div>
                     <div className='Day_2'>
                     <ul className='Event_block'>
                         {Events_Two.map((item, index) => {
@@ -210,7 +210,7 @@ class Landingpage extends Component {
                     </ul>
                     </div>
                     <div className='Day_3_logo'><EventD3/></div>
-                    <div className='Day_3_title'> Keynotes and Work Time </div>
+                    <div className='Day_3_title'> Industry Insights and Work Time </div>
                     <div className='Day_3'>
                     <ul className='Event_block'>
                         {Events_Three.map((item, index) => {
@@ -229,7 +229,7 @@ class Landingpage extends Component {
                     </ul>
                     </div>
                     <div className='Day_4_logo'><EventD4/></div>
-                    <div className='Day_4_title'> Making Portfolios and finishing off </div>
+                    <div className='Day_4_title'> Portfolios and Submissions </div>
                     <div className='Day_4'>
                         <ul className='Event_block'>
                         {Events_Four.map((item, index) => {
@@ -248,7 +248,7 @@ class Landingpage extends Component {
                     </ul>
                     </div>
                     <div className='Discord_text'>
-                        Discord Moderation will take place from 12:00 PM to 12:00 AM Everyday
+                        Discord Moderation will take place from 10:00 AM to 12:00 AM Everyday
                     </div>
                     <a className='join_discord' href="https://discord.gg/BKJYhuBtkc" onClick={()=> Event("DISCORD_EVENTS", "Discord button clicked at event container", "EVENT_SCHEDULE")}>
                         Click here to join our Discord
