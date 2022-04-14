@@ -38,7 +38,7 @@ import { ReactComponent as InstagramLogo } from './instagram.svg';
 import { ReactComponent as EmailLogo } from './email.svg';
 
 import { ReactComponent as FooterSponsorMobile } from './Footerlogocollectionmobile.svg';
-
+import Confetti from './Confetti'
 
 
 
