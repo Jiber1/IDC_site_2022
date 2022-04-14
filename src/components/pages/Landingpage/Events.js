@@ -21,11 +21,19 @@ export const Events_Two = [
         title: 'In-Person Project Help',
         date: 'April 15, 2022 | 3:00 PM CT',
         place: 'SCD Room 1002',
+<<<<<<< HEAD
         description: 'by IDC staff',
         tag: 'day2'
     },
     {
         title: 'Imagining the Future',
+=======
+        description: 'by IDC Staff',
+        tag: 'day2'
+    },
+    {
+        title: 'New Product Design',
+>>>>>>> 3a26c82d432cca12ac5f161aa01fbcb03d0cec36
         date: 'April 15, 2022 | 4:00 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'by Prof. Suresh Sethi',
@@ -46,7 +54,7 @@ export const Events_Two = [
         tag: 'day2'
     },
     {
-        title: 'Advanced CAD Workshop',
+        title: 'Advanced CAD',
         date: 'April 15, 2022 | 7:00 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'By David Parker (iRobotics)',
@@ -70,12 +78,20 @@ export const Events_Three = [
         tag: 'day3'
     },
     {
+<<<<<<< HEAD
         title: 'Practical Fluid System Design Considerations',
+=======
+        title: 'Marine Tech Design',
+>>>>>>> 3a26c82d432cca12ac5f161aa01fbcb03d0cec36
         date: 'April 16, 2022 | 2:00 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'by Chad Peterson',
         tag: 'day3'
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> 3a26c82d432cca12ac5f161aa01fbcb03d0cec36
 ]
 
 export const Events_Four = [
