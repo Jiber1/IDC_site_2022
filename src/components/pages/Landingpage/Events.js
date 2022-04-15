@@ -18,17 +18,10 @@ export const Events_One = [
 
 export const Events_Two = [
     {
-        title: 'Graykea Sponsor Talk',
-        date: 'April 15, 2022 | 2:00 PM CT',
-        place: 'SCD Room 1002',
-        description: 'by Manav Modi',
-        tag: 'day2'
-    },
-    {
-        title: 'In-Person Project Help',
+        title: 'Designing for Space',
         date: 'April 15, 2022 | 3:00 PM CT',
         place: 'SCD Room 1002',
-        description: 'by IDC staff',
+        description: 'by Illinois Space Society',
         tag: 'day2'
     },
     {
@@ -43,6 +36,13 @@ export const Events_Two = [
         date: 'April 15, 2022 | 5:00 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'by IDC Staff',
+        tag: 'day2'
+    },
+    {
+        title: 'Graykea Sponsor Talk',
+        date: 'April 15, 2022 | 5:30 PM CT',
+        place: 'SCD Room 1000 & 1002',
+        description: 'by Manav Modi',
         tag: 'day2'
     },
     {
