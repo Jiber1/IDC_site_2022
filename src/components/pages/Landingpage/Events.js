@@ -39,13 +39,6 @@ export const Events_Two = [
         tag: 'day2'
     },
     {
-        title: 'GrayKea Sponsor Talk',
-        date: 'April 15, 2022 | 5:30 PM CT',
-        place: 'SCD Room 1000 & 1002',
-        description: 'by Manav Modi',
-        tag: 'day2'
-    },
-    {
         title: 'Intro to CAD Workshop',
         date: 'April 15, 2022 | 6:00 PM CT',
         place: 'SCD Room 1000 & 1002',
@@ -70,10 +63,10 @@ export const Events_Two = [
 
 export const Events_Three = [
     {
-        title: 'In-Person Project Help',
+        title: 'GrayKea Sponsor Talk',
         date: 'April 16, 2022 | 1:00 PM CT',
         place: 'SCD Sunset Studio Room 1050',
-        description: 'by IDC Staff',
+        description: 'by Manav Modi',
         tag: 'day3'
     },
     {
