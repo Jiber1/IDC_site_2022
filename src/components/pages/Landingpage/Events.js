@@ -39,7 +39,7 @@ export const Events_Two = [
         tag: 'day2'
     },
     {
-        title: 'Graykea Sponsor Talk',
+        title: 'GrayKea Sponsor Talk',
         date: 'April 15, 2022 | 5:30 PM CT',
         place: 'SCD Room 1000 & 1002',
         description: 'by Manav Modi',
