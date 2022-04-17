@@ -96,7 +96,7 @@ export const Events_Four = [
     {
         title: 'Portfolio Workshop',
         date: 'April 17, 2022 | 2:00 PM CT',
-        place: 'Online Event',
+        place: 'Online & SCD Room 1002',
         description: 'Presented by IDC Staff',
         tag: 'day4'
     },
